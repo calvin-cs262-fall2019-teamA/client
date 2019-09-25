@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_caret_right" />
-                            <entry key="sourceFile" value="C:\Users\siets\Desktop\Git\counselingApp\client\Deliverable1\app\src\main\res\drawable\caret_right.svg" />
+                            <entry key="outputName" value="ic_give_love" />
+                            <entry key="sourceFile" value="C:\Users\siets\Desktop\Git\counselingApp\client\Deliverable1\app\src\main\res\drawable\give-love.svg" />
                           </map>
                         </option>
                       </PersistentState>
