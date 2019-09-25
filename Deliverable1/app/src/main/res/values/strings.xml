@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">CalvinHealiva</string>
-    <string name="login">Login</string>
-    <string name="create_account">Create Account</string>
-    <string name="messaging">Messaging</string>
-    <string name="connect">Connect</string>
-    <string name="schedule_appointment">Schedule Appointment</string>
-</resources>
