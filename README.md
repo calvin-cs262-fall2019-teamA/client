@@ -6,7 +6,7 @@ According to the Anxiety and Depression Association of America, **85%** of colle
 
 With their student ID’s, Calvin students will have the option to seek counseling from certified counselors for free, and have the benefit of remaining anonymous if they so desire.  
 
-# TeamConfidant
+# Team Confidant
       -Sambridhi Acharya
       -Hellen Makuei
       -YK Park
