@@ -44,4 +44,10 @@ public class Login extends AppCompatActivity {
         Intent menuPage = new Intent(this, MenuPage.class);
         this.startActivity(menuPage);
     }
+
+    // On Learn About Us button click, show vision statement
+    public void handleAboutUs(View view) {
+        Intent aboutUs = new Intent(this, AboutUs.class);
+        this.startActivity(aboutUs);
+    }
 }

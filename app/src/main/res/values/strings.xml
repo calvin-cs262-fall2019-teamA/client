@@ -3,6 +3,16 @@
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
     <string name="messaging">Messaging</string>
-    <string name="connect">Connect</string>
-    <string name="schedule_appointment">Schedule Appointment</string>
+    <string name="events">Events</string>
+    <string name="appointments">Appointments</string>
+    <string name="learn_about_us">Learn About Us</string>
+    <string name="or">Or</string>
+    <string name="type_email">Type Email</string>
+    <string name="type_password">Type Password</string>
+    <string name="view_and_agree_to_terms">View and Agree to Terms</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="slogan_or_something_can_go_here">Slogan or something can go here</string>
+    <string name="about_title">About - Vision Statement</string>
+    <string name="vision_statement_p1">According to the Anxiety and Depression Association of America, 85% of college students have felt overwhelmed by everything they need to balance. From extracurriculars to courseload; relationships to personal time; this feeling of being overwhelmed can lead to, or increase, levels of anxiety and depression in students. Often these students do not feel comfortable revealing their identity. Unfortunately, the current system requires students to go in person to the Center for Counseling and Wellness to talk to a counselor. This is why CalvinHealiva will serve the community here at Calvin University in an alternate way by providing a free app that connects students to counselors with an option to connect anonymously.With their student ID’s, Calvin students will have the option to seek counseling from certified counselors for free and have the benefit of remaining anonymous if they so desire. </string>
+    <string name="vision_statement_p2">To better serve the community, we decided to create the app in Android Studio due to the time constraints related to this project. Since Android is one of the most commonly used mobile platforms and thus one with the most resources available, we decided to design and develop our project in Android Studio.</string>
 </resources>
