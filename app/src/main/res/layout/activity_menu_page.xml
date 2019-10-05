@@ -37,20 +37,23 @@
     <Button
         android:id="@+id/menuItemOne"
         android:layout_width="0dp"
-        android:layout_weight=".80"
         android:layout_height="70dp"
         android:layout_marginBottom="2dp"
+        android:layout_weight=".80"
+        android:autoText="true"
         android:background="@drawable/grey_button_border"
+        android:drawableStart="@drawable/ic_message"
+        android:drawableLeft="@drawable/ic_message"
+        android:drawableEnd="@drawable/ic_caret_right"
+        android:drawableRight="@drawable/ic_caret_right"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="@string/messaging"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/menuItemTwo"
         app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        android:drawableRight="@drawable/ic_caret_right"
-        android:drawableLeft="@drawable/ic_message"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/menuItemTwo"
@@ -59,7 +62,7 @@
         android:background="@drawable/grey_button_border"
         android:layout_width="0dp"
         android:layout_weight=".80"
-        android:text="@string/connect"
+        android:text="@string/events"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/menuItemThree"
         app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
@@ -68,7 +71,9 @@
         android:drawableRight="@drawable/ic_caret_right"
         android:drawableLeft="@drawable/ic_group"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp"/>
+        android:paddingRight="10dp"
+        android:drawableEnd="@drawable/ic_caret_right"
+        android:drawableStart="@drawable/ic_group" />
 
     <Button
         android:id="@+id/menuItemThree"
@@ -78,7 +83,7 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/grey_button_border"
         android:drawableTop="@color/lightgray"
-        android:text="@string/schedule_appointment"
+        android:text="@string/appointments"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
@@ -87,7 +92,9 @@
         android:drawableRight="@drawable/ic_caret_right"
         android:drawableLeft="@drawable/ic_calendar"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp"/>
+        android:paddingRight="10dp"
+        android:drawableEnd="@drawable/ic_caret_right"
+        android:drawableStart="@drawable/ic_calendar" />
 
     <Button
         android:layout_width="59dp"
@@ -98,6 +105,8 @@
         android:paddingLeft="15dp"
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:drawableStart="@drawable/ic_settings"
+        android:paddingStart="15dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
