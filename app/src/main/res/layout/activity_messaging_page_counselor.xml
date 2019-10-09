@@ -52,45 +52,4 @@
         </LinearLayout>
     </LinearLayout>
 
-<!--    <LinearLayout-->
-<!--        android:id="@+id/linearLayout3"-->
-<!--        android:layout_width="65dp"-->
-<!--        android:layout_height="737dp"-->
-<!--        android:layout_marginStart="21dp"-->
-<!--        android:layout_marginLeft="21dp"-->
-<!--        android:layout_weight=".20"-->
-<!--        android:background="@color/colorPrimary"-->
-<!--        android:orientation="horizontal"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="1.0"-->
-<!--        app:layout_constraintStart_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.0">-->
-
-<!--        <Button-->
-<!--            android:layout_width="57dp"-->
-<!--            android:layout_height="57dp"-->
-<!--            android:layout_marginEnd="44dp"-->
-<!--            android:layout_marginRight="44dp"-->
-<!--            android:background="@color/colorPrimary"-->
-<!--            android:drawableTop="@drawable/ic_profile"-->
-<!--            android:paddingTop="10dp" />-->
-<!--    </LinearLayout>-->
-
-<!--    <Button-->
-<!--        android:layout_width="59dp"-->
-<!--    android:layout_height="51dp"-->
-<!--    android:layout_gravity="bottom"-->
-<!--    android:background="@color/colorPrimary"-->
-<!--    android:drawableLeft="@drawable/ic_settings"-->
-<!--    android:paddingLeft="15dp"-->
-<!--    android:paddingRight="15dp"-->
-<!--    android:paddingBottom="10dp"-->
-<!--    app:layout_constraintBottom_toBottomOf="parent"-->
-<!--    app:layout_constraintEnd_toEndOf="parent"-->
-<!--    android:drawableStart="@drawable/ic_settings"-->
-<!--    android:paddingStart="15dp" />-->
-
 </androidx.constraintlayout.widget.ConstraintLayout>
