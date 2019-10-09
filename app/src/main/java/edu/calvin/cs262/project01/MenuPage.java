@@ -24,11 +24,6 @@ public class MenuPage extends AppCompatActivity {
                 openMessagePage();
             }
         });
-//
-//        public void openMessagePage() {
-//            Intent messagePage = new Intent(this, Messaging.class);
-//            this.startActivity(messagePage);
-//        }
 
     }
 
