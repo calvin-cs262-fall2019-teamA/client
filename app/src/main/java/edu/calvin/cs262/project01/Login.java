@@ -1,3 +1,4 @@
+
 package edu.calvin.cs262.project01;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,7 +35,7 @@ public class Login extends AppCompatActivity {
         createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                openMenuPage();
+                openCreateAccount();
             }
         });
 
@@ -43,6 +44,12 @@ public class Login extends AppCompatActivity {
     public void openMenuPage() {
         Intent menuPage = new Intent(this, MenuPage.class);
         this.startActivity(menuPage);
+    }
+
+
+    public void openCreateAccount() {
+        Intent createAccountPage = new Intent(this, CreateAccount.class);
+        this.startActivity(createAccountPage);
     }
 
     // On Learn About Us button click, show vision statement
