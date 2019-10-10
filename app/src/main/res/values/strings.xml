@@ -15,4 +15,29 @@
     <string name="about_title">About - Vision Statement</string>
     <string name="vision_statement_p1">According to the Anxiety and Depression Association of America, 85% of college students have felt overwhelmed by everything they need to balance. From extracurriculars to courseload; relationships to personal time; this feeling of being overwhelmed can lead to, or increase, levels of anxiety and depression in students. Often these students do not feel comfortable revealing their identity. Unfortunately, the current system requires students to go in person to the Center for Counseling and Wellness to talk to a counselor. This is why CalvinHealiva will serve the community here at Calvin University in an alternate way by providing a free app that connects students to counselors with an option to connect anonymously.With their student ID’s, Calvin students will have the option to seek counseling from certified counselors for free and have the benefit of remaining anonymous if they so desire. </string>
     <string name="vision_statement_p2">To better serve the community, we decided to create the app in Android Studio due to the time constraints related to this project. Since Android is one of the most commonly used mobile platforms and thus one with the most resources available, we decided to design and develop our project in Android Studio.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="event1">Event 1</string>
+    <string name="title_activity_event1_page">Event1Page</string>
+    <string name="title_activity_events2_page">Events2Page</string>
+    <string name="event_2">Event 2</string>
+
+    <string name="test">Test</string>
+    <string name="view_appointments">View Appointments</string>
+    <string name="see_appointments">Set Appointments</string>
 </resources>

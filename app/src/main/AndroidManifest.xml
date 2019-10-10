@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.calvin.cs262.project01">
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,8 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Messaging"></activity>
-        <activity android:name=".MenuPage"></activity>
+        <activity
+            android:name=".Events2Page"
+            android:label="@string/title_activity_events2_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Event1Page"
+            android:label="@string/title_activity_event1_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Appointments" />
+        <activity android:name=".EventsPage" />
+        <activity android:name=".MenuPage" />
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".AboutUs" />
     </application>
 
 </manifest>
