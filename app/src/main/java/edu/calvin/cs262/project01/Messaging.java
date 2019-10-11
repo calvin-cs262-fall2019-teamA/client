@@ -3,11 +3,14 @@ package edu.calvin.cs262.project01;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.Button;
 import android.view.View;
 import android.widget.EditText;
 
-public class Messaging extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Messaging extends AppCompatActivity {
 
     private String channelID = "csgk6hEIPp8ZKg0K";
     private String roomName = "observable-room";
@@ -25,5 +28,11 @@ public class Messaging extends Activity {
 
         //This is where we write the message
         editText = (EditText) findViewById(R.id.editText);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 }
