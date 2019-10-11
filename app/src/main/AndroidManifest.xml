@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CreateAccount"></activity>
-        <activity android:name=".Messaging" />
+        <activity android:name=".Messaging" ></activity>
         <activity
             android:name=".Events2Page"
             android:label="@string/title_activity_events2_page"
@@ -23,7 +23,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Appointments" />
         <activity android:name=".EventsPage" />
-        <activity android:name=".MenuPage" />
+        <activity android:name=".MenuPage" ></activity>
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

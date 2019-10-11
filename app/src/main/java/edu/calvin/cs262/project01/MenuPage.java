@@ -7,7 +7,9 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-public class MenuPage extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MenuPage extends AppCompatActivity {
     private Button Messaging;
     private Button Events;
     private Button Appointments;
