@@ -2,8 +2,10 @@ package edu.calvin.cs262.project01;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.view.View;
 import android.widget.EditText;
@@ -34,5 +36,14 @@ public class Messaging extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    /**
+     * logout handles logout click and redirects to login page
+     * @param item
+     */
+    public void logout(MenuItem item) {
+        Intent login = new Intent(this, Login.class);
+        this.startActivity(login);
     }
 }

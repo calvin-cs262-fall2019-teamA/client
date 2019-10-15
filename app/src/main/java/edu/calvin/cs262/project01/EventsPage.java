@@ -3,6 +3,7 @@ package edu.calvin.cs262.project01;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -54,5 +55,12 @@ public class EventsPage extends AppCompatActivity {
 
     }
 
-
+    /**
+     * logout handles logout click and redirects to login page
+     * @param item
+     */
+    public void logout(MenuItem item) {
+        Intent login = new Intent(this, Login.class);
+        this.startActivity(login);
+    }
 }
