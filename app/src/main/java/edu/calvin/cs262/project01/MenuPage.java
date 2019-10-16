@@ -99,4 +99,13 @@ public class MenuPage extends AppCompatActivity {
         Intent login = new Intent(this, Login.class);
         this.startActivity(login);
     }
+
+    /**
+     * handleClickProfile handles profile click and redirects to profile settings page
+     * @param item
+     */
+    public void handleClickProfile(MenuItem item) {
+        Intent profile = new Intent(this, Profile.class);
+        this.startActivity(profile);
+    }
 }

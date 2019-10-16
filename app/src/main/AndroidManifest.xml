@@ -11,19 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CreateAccount"></activity>
-        <activity android:name=".Messaging" ></activity>
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".Messaging" />
         <activity
             android:name=".Events2Page"
             android:label="@string/title_activity_events2_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Event1Page"
             android:label="@string/title_activity_event1_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Appointments" />
         <activity android:name=".EventsPage" />
-        <activity android:name=".MenuPage" ></activity>
+        <activity android:name=".MenuPage" />
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
