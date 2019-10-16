@@ -5,4 +5,5 @@
     <color name="colorAccent">#97252B</color>
     <color name="grey">#333333</color>
     <color name="lightgray">#474646</color>
+    <color name="disabledGrey">#9A333333</color>
 </resources>
