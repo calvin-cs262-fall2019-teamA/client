@@ -14,6 +14,12 @@
 
     <!--Messaging Strings-->
     <string name="messaging">Messaging</string>
+    <string name="newchat">newChat</string>
+    <string name="therapist">Therapist</string>
+    <string name="peer">Peer</string>
+    <string name="guccigang">GucciGang</string>
+    <string name="yk_the_counselor">YK the Counselor</string>
+
 
     <!--Events Strings-->
     <string name="events">Events</string>
