@@ -12,11 +12,11 @@ import androidx.appcompat.app.AppCompatActivity;
  * The menu page consists of buttons for Messaging, Events, and Appointments
  */
 public class MenuPage extends AppCompatActivity {
-    private Button Messaging;
+    private Button FirstMessage;
     private Button Events;
     private Button Appointments;
 
-    /**
+    /*
      * onCreate should set up listeners for Messaging, Events, and Appointments
      * buttons and call the callback functions to start those activities
      * @param savedInstanceState
@@ -27,12 +27,12 @@ public class MenuPage extends AppCompatActivity {
         setContentView(R.layout.activity_menu_page);
         getIntent();
 
-        // Message button should listen for click and react by opening Messaging page
-        Messaging = findViewById(R.id.menuItemOne);
-        Messaging.setOnClickListener(new View.OnClickListener(){
+        // Message button should listen for click and react by opening MessageRecent
+        FirstMessage = findViewById(R.id.menuItemOne);
+        FirstMessage.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openMessagePage();
+                openMessageRecent();
             }
         });
 
@@ -86,9 +86,9 @@ public class MenuPage extends AppCompatActivity {
     /**
      * openMessagePage should start the messaging activity
      */
-    private void openMessagePage() {
-        Intent messagePage = new Intent(this, Messaging.class);
-        this.startActivity(messagePage);
+    private void openMessageRecent() {
+        Intent openMessageRecent = new Intent(this, MessageRecent.class);
+        this.startActivity(openMessageRecent);
     }
 
     /**
