@@ -44,4 +44,5 @@ public class Appointments extends AppCompatActivity {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
     }
+
 }
