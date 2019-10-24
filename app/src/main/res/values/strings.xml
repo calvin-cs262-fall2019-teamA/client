@@ -80,5 +80,11 @@
     <string name="show_notifications">Show Notifications</string>
     <string name="to_view_profile_settings_see_profile_page">To view Profile Settings, see Profile page or click here</string>
     <string name="reset_password">Reset Password</string>
+    <string name="current_password">Current Password:</string>
+    <string name="new_password">New Password:</string>
+    <string name="save_password">Save Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password:</string>
+    <string name="enter_current_password">Enter Current Password</string>
 
 </resources>

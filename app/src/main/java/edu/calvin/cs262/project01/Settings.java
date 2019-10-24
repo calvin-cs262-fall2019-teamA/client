@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Settings extends AppCompatActivity {
     private Switch peerListener;
     private Switch notifications;
-    // TODO: impliment switches
+    // TODO: implement switches
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +80,7 @@ public class Settings extends AppCompatActivity {
      * @param view
      */
     public void handleResetPassword(View view) {
-        // TODO: Call reset Password page
+        Intent resetPassword = new Intent(this, ResetPassword.class);
+        this.startActivity(resetPassword);
     }
 }

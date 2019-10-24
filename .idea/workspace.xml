@@ -12,29 +12,15 @@
     <list default="true" id="fd37c463-f38e-43de-b371-c1611044f016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Appointments.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Appointments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Event1Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Event1Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Events2Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Events2Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/EventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/EventsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessagePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessagePerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageRecent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageRecent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Messaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Messaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,22 +72,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Profile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,11 +84,95 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reset_password.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1286">
-              <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+            <state relative-caret-position="439">
+              <caret line="130" column="41" lean-forward="true" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+              <folding>
+                <element signature="e#912#944#0" expanded="true" />
+                <element signature="e#1690#1718#0" expanded="true" />
+                <element signature="e#2362#2388#0" expanded="true" />
+                <element signature="e#2951#2973#0" expanded="true" />
+                <element signature="e#3556#3586#0" expanded="true" />
+                <element signature="e#4295#4325#0" expanded="true" />
+                <element signature="e#5040#5063#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ResetPassword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/AboutUs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Appointments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +181,8 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+            <state relative-caret-position="484">
+              <caret line="80" column="41" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="80" selection-end-column="41" />
               <folding>
                 <element signature="e#798#824#0" expanded="true" />
                 <element signature="e#948#969#0" expanded="true" />
@@ -135,63 +193,6 @@
                 <element signature="e#2506#2557#0" expanded="true" />
                 <element signature="e#3391#3415#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" selection-start-line="24" selection-end-line="38" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="121" selection-start-line="121" selection-end-line="131" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageRecent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="58" column="86" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -221,9 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_caret_right.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_group.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_send_black_24dp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/my_message.xml" />
@@ -272,6 +270,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_reset_password.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ResetPassword.java" />
       </list>
     </option>
   </component>
@@ -364,14 +365,14 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="edu.calvin.cs262.project01" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\drawable" />
     </key>
     <key name="android.template.packageName">
       <recent name="edu.calvin.cs262.project01" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\drawable" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.calvin.cs262.project01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,7 +476,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49911818" visible="true" weight="0.1411926" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49911818" visible="true" weight="0.1411926" />
       <window_info id="Structure" order="2" sideWeight="0.50088185" side_tool="true" weight="0.24811515" />
       <window_info id="Build Variants" order="3" sideWeight="0.50088185" side_tool="true" weight="0.24811515" />
       <window_info id="Image Layers" order="4" />
@@ -485,15 +486,15 @@
       <window_info id="Favorites" order="8" sideWeight="0.50088185" side_tool="true" weight="0.24811515" />
       <window_info anchor="bottom" id="Find" order="0" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49307036" weight="0.12567714" />
-      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4996573" weight="0.1147929" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4989719" weight="0.1147929" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4996573" weight="0.3289941" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.31459904" side_tool="true" visible="true" weight="0.21656805" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4989719" weight="0.3289941" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="6" sideWeight="0.31528443" side_tool="true" visible="true" weight="0.21656805" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996573" weight="0.3289941" />
-      <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.68540096" visible="true" weight="0.21656805" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.48869088" weight="0.42011833" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989719" weight="0.3289941" />
+      <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.68471557" visible="true" weight="0.21656805" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4880055" weight="0.37751478" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.4989719" weight="0.3289941" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.32889125" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
@@ -538,8 +539,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/HistoryRoomListener.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Listener.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Member.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ObservableRoomListener.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Room.java" />
@@ -548,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Scaledrone.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Message.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/calvinHeart.PNG" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_message.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,36 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/AboutUs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Appointments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Event1Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -764,30 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Messaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="52" selection-start-line="52" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" selection-start-line="24" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -799,15 +737,15 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/MessageRecent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="58" column="86" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="86" />
+          <caret line="58" column="86" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="5">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -822,7 +760,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -830,15 +768,79 @@
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Messaging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" selection-start-line="32" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/AboutUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Appointments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        <state relative-caret-position="484">
+          <caret line="80" column="41" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="80" selection-end-column="41" />
           <folding>
             <element signature="e#798#824#0" expanded="true" />
             <element signature="e#948#969#0" expanded="true" />
@@ -852,13 +854,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reset_password.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="130" column="41" lean-forward="true" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#912#944#0" expanded="true" />
+            <element signature="e#1690#1718#0" expanded="true" />
+            <element signature="e#2362#2388#0" expanded="true" />
+            <element signature="e#2951#2973#0" expanded="true" />
+            <element signature="e#3556#3586#0" expanded="true" />
+            <element signature="e#4295#4325#0" expanded="true" />
+            <element signature="e#5040#5063#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ResetPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
         </state>
       </provider>
     </entry>
