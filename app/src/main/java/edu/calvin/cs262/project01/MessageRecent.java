@@ -69,4 +69,13 @@ public class MessageRecent extends AppCompatActivity {
         this.startActivity(openMessageGroup);
     }
 
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
+    }
+
 }

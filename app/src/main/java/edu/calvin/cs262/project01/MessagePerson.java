@@ -60,4 +60,13 @@ public class MessagePerson extends AppCompatActivity {
         Intent openMessagePage = new Intent(this, Messaging.class);
         this.startActivity(openMessagePage);
     }
+
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
+    }
 }

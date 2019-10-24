@@ -53,4 +53,13 @@ public class Events2Page extends AppCompatActivity {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
     }
+
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
+    }
 }
