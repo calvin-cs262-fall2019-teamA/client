@@ -71,4 +71,14 @@
     <string name="add_edit_profile_picture">Add/Edit Profile Picture:</string>
     <string name="add_edit_profile_description">Add/Edit Profile Description:</string>
 
+    <!-- Settings Strings -->
+    <string name="listeneroff">listenerOff</string>
+    <string name="listeneron">listenerOn</string>
+    <string name="be_peer_listener">Be Peer Listener</string>
+    <string name="nonofications">noNofications</string>
+    <string name="shownotifications">showNotifications</string>
+    <string name="show_notifications">Show Notifications</string>
+    <string name="to_view_profile_settings_see_profile_page">To view Profile Settings, see Profile page or click here</string>
+    <string name="reset_password">Reset Password</string>
+
 </resources>

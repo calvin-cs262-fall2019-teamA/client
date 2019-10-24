@@ -87,4 +87,13 @@ public class MessageGroup extends AppCompatActivity {
         Intent messagePerson = new Intent(this, MessagePerson.class);
         this.startActivity(messagePerson);
     }
+
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
+    }
 }
