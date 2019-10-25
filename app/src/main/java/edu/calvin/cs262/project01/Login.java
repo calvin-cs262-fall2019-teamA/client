@@ -24,6 +24,7 @@ import static android.provider.AlarmClock.EXTRA_MESSAGE;
 public class Login extends AppCompatActivity {
     private Button login;
     private Button createAccount;
+    private TextView forgotPassword;
 
     /**
      * onCreate should set up listeners for buttons on the login page
@@ -50,6 +51,14 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 openCreateAccount();
+            }
+        });
+
+        forgotPassword = findViewById(R.id.forgotPassword);
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                openForgotPasswordPage();
             }
         });
 
@@ -96,5 +105,17 @@ public class Login extends AppCompatActivity {
     public void handleClickProfile(MenuItem item) {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
+    }
+
+
+
+
+    /**
+     * handleAboutUs should start aboutUs activity and show our vision statement
+     */
+
+    public void openForgotPasswordPage() {
+        Intent forgotPassword= new Intent(this, ForgotPassword_Page.class);
+        this.startActivity(forgotPassword);
     }
 }

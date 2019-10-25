@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CreateNewPassword_Page"/>
+        <activity android:name=".ResetPassword_Page" />
+        <activity android:name=".ForgotPassword_Page" />
         <activity android:name=".ResetPassword"></activity>
         <activity android:name=".Settings" />
         <activity android:name=".Profile" />
