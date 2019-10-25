@@ -22,7 +22,6 @@ public class Profile extends AppCompatActivity {
     private EditText description;
     private Switch showName;
     private Switch showPic;
-// TODO: implement other profile buttons/view
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +63,15 @@ public class Profile extends AppCompatActivity {
      */
     public void handleClickProfile(MenuItem item) {
         // do nothing
+    }
+
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
     }
 
     /**

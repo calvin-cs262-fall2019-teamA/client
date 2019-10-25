@@ -74,7 +74,7 @@
             android:layout_marginLeft="5dp"
             android:ems="10"
             android:hint="@string/type_password"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:text=""
             android:textColor="#ffffff"
             app:layout_constraintBottom_toTopOf="@+id/forgotPassword"
