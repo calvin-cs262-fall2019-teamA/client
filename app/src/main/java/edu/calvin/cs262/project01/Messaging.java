@@ -1,27 +1,25 @@
 package edu.calvin.cs262.project01;
-
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.view.View;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Messaging extends AppCompatActivity {
 
+    //The channel ID is used to connect to the scaledrone service
     private String channelID = "csgk6hEIPp8ZKg0K";
+    //the room name creates a room to connect people into a chat space
     private String roomName = "observable-room";
     private EditText editText;
     private Button Messaging;
 
-    public static void setOnClickListener(View.OnClickListener onClickListener) {
-    }
-
+    /**
+     * Opens up the messaging page activity
+     */
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
@@ -54,5 +52,14 @@ public class Messaging extends AppCompatActivity {
     public void handleClickProfile(MenuItem item) {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
+    }
+
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
     }
 }

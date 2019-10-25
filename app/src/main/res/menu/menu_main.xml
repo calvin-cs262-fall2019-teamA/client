@@ -22,6 +22,7 @@
         android:id="@+id/settings"
         android:orderInCategory="20"
         android:title="Settings"
+        android:onClick="handleClickSettings"
         app:showAsAction="never"
         android:background="@color/colorPrimary" />
 
