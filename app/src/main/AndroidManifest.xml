@@ -14,6 +14,8 @@
         <activity android:name=".CreateNewPassword_Page"/>
         <activity android:name=".ResetPassword_Page" />
         <activity android:name=".ForgotPassword_Page" />
+        <activity android:name=".ResetPassword"></activity>
+        <activity android:name=".Settings" />
         <activity android:name=".Profile" />
         <activity android:name=".CreateAccount" />
         <activity android:name=".MessageRecent" />

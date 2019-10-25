@@ -1,45 +1,35 @@
 package edu.calvin.cs262.project01;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
+/**
+ * ResetPassword allows a logged-in user to update their password easily from the Settings page
+ */
+public class ResetPassword extends AppCompatActivity {
 
-public class MessageRecent extends AppCompatActivity {
-    private Button messageGroup;
-
-    /*
-     * onCreate should set up listeners for Messaging, Events, and Appointments
-     * buttons and call the callback functions to start those activities
+    /**
+     * onCreate should display the reset password activity
      * @param savedInstanceState
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recent_messages);
-        getIntent();
-
-        // Message button should listen for click and react by opening MessageRecent
-        messageGroup = findViewById(R.id.newChat);
-        messageGroup.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openMessageGroup();
-            }
-        });
-
+        setContentView(R.layout.activity_reset_password);
     }
 
-    /*
-     * Opens up the messaging page activity
+    /**
+     * onCreateOptionsMenu should create the dropdown menu button in the top right corner of each page.
+     * Options should include Profile, Settings, and Logout buttons
+     * @param menu
+     * @return true -- required return
      */
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -64,11 +54,6 @@ public class MessageRecent extends AppCompatActivity {
         this.startActivity(profile);
     }
 
-    private void openMessageGroup() {
-        Intent openMessageGroup = new Intent(this, MessageGroup.class);
-        this.startActivity(openMessageGroup);
-    }
-
     /**
      * handleClickSettings handles settings click and redirects to settings page
      * @param item
@@ -78,4 +63,13 @@ public class MessageRecent extends AppCompatActivity {
         this.startActivity(settings);
     }
 
+    /**
+     * handleSaveNewPassword should update user's password and return them to settings page
+     * @param view
+     */
+    public void handleSaveNewPassword(View view) {
+        Toast.makeText(getApplicationContext(),"Password Reset", Toast.LENGTH_SHORT).show();
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
+    }
 }

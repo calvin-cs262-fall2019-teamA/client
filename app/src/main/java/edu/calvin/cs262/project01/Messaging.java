@@ -17,7 +17,7 @@ public class Messaging extends AppCompatActivity {
     private EditText editText;
     private Button Messaging;
 
-    /*
+    /**
      * Opens up the messaging page activity
      */
     @Override
@@ -36,7 +36,7 @@ public class Messaging extends AppCompatActivity {
         return true;
     }
 
-    /*
+    /**
      * logout handles logout click and redirects to login page
      * @param item
      */
@@ -45,12 +45,21 @@ public class Messaging extends AppCompatActivity {
         this.startActivity(login);
     }
 
-    /*
+    /**
      * handleClickProfile handles profile click and redirects to profile settings page
      * @param item
      */
     public void handleClickProfile(MenuItem item) {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
+    }
+
+    /**
+     * handleClickSettings handles settings click and redirects to settings page
+     * @param item
+     */
+    public void handleClickSettings(MenuItem item) {
+        Intent settings = new Intent(this, Settings.class);
+        this.startActivity(settings);
     }
 }
