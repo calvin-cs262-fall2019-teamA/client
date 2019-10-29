@@ -86,6 +86,8 @@
     <string name="enter_new_password">Enter New Password</string>
     <string name="confirm_new_password">Confirm New Password:</string>
     <string name="enter_current_password">Enter Current Password</string>
+    <string name="plus">+</string>
+    <string name="no_appt">No Appointments on this date</string>
 
     <!-- Password pages from Login -->
     <string name="enter_calvin_email">Enter Calvin Email</string>
