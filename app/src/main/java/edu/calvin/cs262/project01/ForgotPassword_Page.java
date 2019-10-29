@@ -12,7 +12,8 @@ import android.widget.Toast;
 public class ForgotPassword_Page extends AppCompatActivity {
 
 
-    //private EditText passwordEmail;
+
+
     private Button buttonReset;
 
 

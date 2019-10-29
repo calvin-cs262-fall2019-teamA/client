@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class ResetPassword_Page extends AppCompatActivity {
-    //private EditText passwordEmail;
+
     private Button buttonFinish;
 
 
