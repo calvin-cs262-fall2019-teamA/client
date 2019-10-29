@@ -11,15 +11,11 @@ import android.widget.Toast;
 
 public class ForgotPassword_Page extends AppCompatActivity {
 
-
-
-
     private Button buttonReset;
 
-
     public void openResetPage() {
-        Intent buttonReset = new Intent(this, ResetPassword_Page.class);
-        this.startActivity(buttonReset);
+        Intent resetPassword = new Intent(this, ResetPassword_Page.class);
+        this.startActivity(resetPassword);
     }
 
     @Override
@@ -31,13 +27,10 @@ public class ForgotPassword_Page extends AppCompatActivity {
         buttonReset = findViewById(R.id.buttonReset);
         buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
-
             public void onClick(View v){
                 openResetPage();
             }
         });
-
-
     }
  }
 

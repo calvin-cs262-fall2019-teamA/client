@@ -87,4 +87,22 @@
     <string name="confirm_new_password">Confirm New Password:</string>
     <string name="enter_current_password">Enter Current Password</string>
 
+    <!-- Password pages from Login -->
+    <string name="enter_calvin_email">Enter Calvin Email</string>
+    <string name="enter_code">Enter Code:</string>
+    <string name="enter_code_from_email">Enter Code from Email</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset">Reset</string>
+    <string name="complete">Complete</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="send_code">Send Code</string>
+    <string name="we_will_send_you_a_code_to_enter_on_the_next_page">We will send you a code to enter on the next page.</string>
+
+    <!-- Create Account -->
+    <string name="calvin_email">Calvin Email:</string>
+    <string name="create_password">Create Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="review_terms_and_conditions">Review Terms and Conditions:</string>
+    <string name="finish">Finish</string>
+
 </resources>
