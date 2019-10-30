@@ -15,9 +15,9 @@
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
         android:baselineAligned="false"
-        android:text="Create Account"
+        android:text="@string/create_account"
         android:textColor="#ffffff"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,29 +26,28 @@
     <TextView
         android:id="@+id/Calvin_Email"
         android:layout_width="124dp"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="4dp"
         android:paddingTop="13dp"
-        android:text="Calvin Email:"
+        android:text="@string/calvin_email"
         android:textColor="#ffffff"
-        android:ems="15"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createAccount" />
 
     <EditText
         android:id="@+id/CalvinEmail"
-        android:layout_width="218dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:hint="Enter Calvin Email"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:hint="@string/enter_calvin_email"
         android:inputType="textPersonName"
         android:textColor="#ffffff"
-        android:ems="15"
+        android:textColorHint="@color/hintGrey"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/Calvin_Email"
         app:layout_constraintTop_toTopOf="@+id/Calvin_Email" />
 
@@ -56,13 +55,13 @@
         android:id="@+id/createPassword"
         android:layout_width="171dp"
         android:layout_height="47dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="28dp"
         android:paddingTop="13dp"
-        android:text="Create Password :"
+        android:text="Create Password:"
         android:textColor="#ffffff"
-        android:ems="15"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Calvin_Email" />
 
@@ -70,9 +69,10 @@
         android:id="@+id/Password"
         android:layout_width="213dp"
         android:layout_height="45dp"
-        android:ems="15"
-        android:hint="Enter Password"
-        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:hint="@string/enter_password"
+        android:textColorHint="@color/hintGrey"
+        android:inputType="textPassword"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.645"
@@ -84,9 +84,9 @@
         android:layout_width="311dp"
         android:layout_height="33dp"
         android:layout_marginTop="32dp"
-        android:text="Review Terms and Conditions:"
+        android:text="@string/review_terms_and_conditions"
         android:textColor="#ffffff"
-        android:ems="15"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,10 +104,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ReviewTCond">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
     </ScrollView>
 
     <CheckBox
@@ -118,6 +114,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginTop="8dp"
         android:text="View and Agree To Terms"
+        android:textSize="19sp"
         android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollViewTerms" />
@@ -126,7 +123,7 @@
         android:id="@+id/buttonFinish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Finish"
+        android:text="@string/finish"
         android:textColor="#ffffff"
         android:onClick="openMenuPage"
         android:background="@color/colorPrimary"

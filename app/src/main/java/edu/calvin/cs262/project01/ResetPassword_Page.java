@@ -11,7 +11,6 @@ public class ResetPassword_Page extends AppCompatActivity {
 
     private Button buttonFinish;
 
-
     public void openCreateNewPassword_page() {
         Intent buttonFinish = new Intent(this, CreateNewPassword_Page.class);
         this.startActivity(buttonFinish);
