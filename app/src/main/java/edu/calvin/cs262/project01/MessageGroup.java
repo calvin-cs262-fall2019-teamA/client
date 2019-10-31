@@ -15,10 +15,8 @@ public class MessageGroup extends AppCompatActivity {
     private Button messagingGroupPeer;
     private Button messagingGroupGucciGang;
 
-    /*
-     * onCreate should set up listeners for Messaging, Events, and Appointments
-     * buttons and call the callback functions to start those activities
-     * @param savedInstanceState
+    /**
+     * Opens up the message group page activity page
      */
     @Override
     protected void onCreate(Bundle saveInstanceState) {
@@ -55,10 +53,12 @@ public class MessageGroup extends AppCompatActivity {
 
     }
 
-    /*
-     * Opens up the messaging page activity
+    /**
+     * onCreateOptionsMenu should create the dropdown menu button in the top right corner of each page.
+     * Options should include Profile, Settings, and Logout buttons
+     * @param menu
+     * @return true -- required return
      */
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -83,6 +83,9 @@ public class MessageGroup extends AppCompatActivity {
         this.startActivity(profile);
     }
 
+    /**
+     * openMessagePerson opens the MessagePerson class
+     */
     private void openMessagePerson() {
         Intent messagePerson = new Intent(this, MessagePerson.class);
         this.startActivity(messagePerson);
