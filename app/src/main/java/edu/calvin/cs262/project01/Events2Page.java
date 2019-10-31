@@ -13,8 +13,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+/**
+ * Events2 page takes user to details of event2
+ */
 public class Events2Page extends AppCompatActivity {
 
+    /**
+     * onCreate initializes the activity
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

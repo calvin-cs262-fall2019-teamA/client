@@ -7,9 +7,15 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
+/**
+ * Events1 page takes user to details of event1
+ */
 public class Event1Page extends AppCompatActivity {
 
+    /**
+     * Initializes event1 pages
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

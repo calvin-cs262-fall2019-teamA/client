@@ -10,10 +10,17 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-
+/**
+ * It shows the list of events available
+ */
 public class EventsPage extends AppCompatActivity {
     private Button Events1;
     private Button Events2;
+
+    /**
+     * It initializes the activity
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,18 +44,28 @@ public class EventsPage extends AppCompatActivity {
         });
     }
 
+    /**
+     * It inflates the main menu page
+     * @param menu
+     * @return boolean
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
+    /** seeEvents1 opens events 1 page
+     */
     public void seeEvents1() {
         Intent seeEvents1 = new Intent(this, Event1Page.class);
         this.startActivity(seeEvents1);
 
     }
 
+
+    /** seeEvents2 opens events 2 page
+     */
     public void seeEvents2() {
         Intent seeEvents2 = new Intent(this, Events2Page.class);
         this.startActivity(seeEvents2);

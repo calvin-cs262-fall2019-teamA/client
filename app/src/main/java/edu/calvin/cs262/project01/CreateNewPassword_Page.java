@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class CreateNewPassword_Page extends AppCompatActivity {
 
-
+    //private EditText passwordEmail;
     private Button buttonComplete;
 
 
