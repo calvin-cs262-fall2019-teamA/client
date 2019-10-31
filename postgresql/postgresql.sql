@@ -61,7 +61,7 @@ GRANT SELECT ON appointment TO PUBLIC;
 
 -- insert to person: ID, email, name, password, showName, profleDescription, profPic, showPic, phoneNum, showPhoneNum
 INSERT INTO Person VALUES(1, 'sam@gmail.com', 'Sam', '12345', FALSE, 'I want to talk to people', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE); 
-INSERT INTO Person VALUES(2, 'sambridhi@gmail.com', 'Sebrina', '12345', TRUE, 'I want to fo to group ebents', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE); 
+INSERT INTO Person VALUES(2, 'sambridhi@gmail.com', 'Sebrina', '12345', TRUE, 'I want to go to group events', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE); 
 INSERT INTO Person VALUES(3, 'samsam@gmail.com', 'Hellen', '12345', FALSE, 'I am not sure', 'profpic.png',  TRUE, '616-555-6161', TRUE, FALSE); 
 INSERT INTO Person VALUES(4, 'sam123@gmail.com', 'John', '12345', TRUE, 'I like having conversation', 'profpic.png',  TRUE, '616-345-6161', FALSE, FALSE); 
 INSERT INTO Person VALUES(5, 'sam321@gmail.com', 'Jonhnathan', '12345', FALSE, 'I want to talk to people', 'profpic.png',  FALSE, '616-754-6161', FALSE, TRUE); 
@@ -69,10 +69,10 @@ INSERT INTO Person VALUES(6, 'sam11@gmail.com', 'Vanderbee', '12345', TRUE, 'No 
 INSERT INTO Person VALUES(7, 'sam10@gmail.com', 'Devries', '12345', FALSE, NULL , 'profpic.png',  FALSE, '616-754-6161', FALSE, FALSE); 
 
 --insert into group chat: ID, isPublic, name, description
-INSERT INTO groupChat VALUES(1, TRUE, 'Chat1', 'I am good at listening.');
-INSERT INTO groupChat VALUES(2, TRUE, 'Chat2', 'I am good having conversation.');
-INSERT INTO groupChat VALUES(3, FALSE, 'Chat3', 'I am a good listener');
-INSERT INTO groupChat VALUES(4, FALSE, 'Chat4', 'I like talking to people');
+INSERT INTO groupChat VALUES(1, TRUE, 'This chat is for anxiety', 'I am good at listening.');
+INSERT INTO groupChat VALUES(2, TRUE, 'This chat is for anyone', 'I am good having conversation.');
+INSERT INTO groupChat VALUES(3, FALSE, 'We talk about good studying habits', 'I am a good listener');
+INSERT INTO groupChat VALUES(4, FALSE, 'This chat is for those feeling overwhelmed', 'I like talking to people');
 
 --insert into personGroupChatLink: personID, groupChatID
 INSERT INTO personGroupChatLink VALUES(1,2);
@@ -81,7 +81,7 @@ INSERT INTO personGroupChatLink VALUES(1,4);
 INSERT INTO personGroupChatLink VALUES(3,4);
 
 --insert into groupEvents: ID, name, description, location, aDate, aTime
-INSERT INTO groupEvent VALUES(1,'Hellen','An event for serniors', 'SC320', '12/12/2000', '1:00:00');
+INSERT INTO groupEvent VALUES(1,'Hellen','An event for seniors', 'SC320', '12/12/2000', '1:00:00');
 INSERT INTO groupEvent VALUES(2,'Alem', 'An event for juniors','SC330', '12/13/2000', '2:00:00');
 INSERT INTO groupEvent VALUES(3,'John', 'An event for college students','SC 331', '12/10/2000', '3:00:00');
 INSERT INTO groupEvent VALUES(4,'Vanderbee', 'An event everybody','SC221', '1/1/2000', '4:00:00');
