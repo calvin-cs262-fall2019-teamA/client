@@ -69,10 +69,10 @@ INSERT INTO Person VALUES(6, 'sam11@gmail.com', 'Vanderbee', '12345', TRUE, 'No 
 INSERT INTO Person VALUES(7, 'sam10@gmail.com', 'Devries', '12345', FALSE, NULL , 'profpic.png',  FALSE, '616-754-6161', FALSE, FALSE); 
 
 --insert into group chat: ID, isPublic, name, description
-INSERT INTO groupChat VALUES(1, TRUE, 'This chat is for anxiety', 'I am good at listening.');
-INSERT INTO groupChat VALUES(2, TRUE, 'This chat is for anyone', 'I am good having conversation.');
-INSERT INTO groupChat VALUES(3, FALSE, 'We talk about good studying habits', 'I am a good listener');
-INSERT INTO groupChat VALUES(4, FALSE, 'This chat is for those feeling overwhelmed', 'I like talking to people');
+INSERT INTO groupChat VALUES(1, TRUE, 'Chat1' , 'This chat is for anxiety');
+INSERT INTO groupChat VALUES(2, TRUE, 'Chat2' ,'This chat is for anyone');
+INSERT INTO groupChat VALUES(3, FALSE, 'Chat3' ,'We talk about good studying habits');
+INSERT INTO groupChat VALUES(4, FALSE, 'Chat4' ,'This chat is for those feeling overwhelmed');
 
 --insert into personGroupChatLink: personID, groupChatID
 INSERT INTO personGroupChatLink VALUES(1,2);
@@ -98,11 +98,10 @@ WHERE showName = TRUE;
 SELECT password FROM Person
 WHERE name = 'Sebrina';
 
-
 SELECT name FROM groupChat 
-WHERE isPublic = TRUE;
+WHERE isPublic = FALSE;
 
 SELECT Person.name FROM Person, groupChat, personGroupChatLink
 WHERE Person.ID = personGroupChatLink.personID
 AND groupChat.ID = personGroupChatLink.groupChatID
-AND groupChatID = 4
+AND groupChatID = 4;
