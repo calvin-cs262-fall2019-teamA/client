@@ -106,5 +106,6 @@
     <string name="enter_password">Enter Password</string>
     <string name="review_terms_and_conditions">Review Terms and Conditions:</string>
     <string name="finish">Finish</string>
+    <string name="continueText">Continue</string>
 
 </resources>
