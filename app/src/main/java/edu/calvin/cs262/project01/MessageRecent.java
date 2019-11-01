@@ -10,6 +10,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * MessageRecent.java is the first page that the user sees after clicking Messages in the menu page. In the MessageRecent activity page,
+ * the user is shown with various recent conversations the user was engaged in, a search button, and a button to initiate a new conversation.
+ */
 public class MessageRecent extends AppCompatActivity {
     private Button messageGroup;
 

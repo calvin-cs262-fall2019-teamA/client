@@ -8,6 +8,9 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Messaging.java opens up the chatroom where the conversations take place
+ */
 public class Messaging extends AppCompatActivity {
 
     //The channel ID is used to connect to the scaledrone service

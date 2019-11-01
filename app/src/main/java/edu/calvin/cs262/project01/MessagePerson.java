@@ -9,6 +9,10 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * MessagePerson.java opens up the activity page in which the user can choose which user/group they'd like to talk to
+ * this page goes after the MessageGroup.java page
+ */
 public class MessagePerson extends AppCompatActivity {
     private Button messageCounselor;
 

@@ -10,6 +10,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * MessageGroup.java opens up the activity page in which the user can choose which of the three users, counselor, peer, or group, the user wants to select.
+ * MessageGroup is the next activity page after MessageRecent.java
+ */
 public class MessageGroup extends AppCompatActivity {
     private Button messagingGroupTherapist;
     private Button messagingGroupPeer;
