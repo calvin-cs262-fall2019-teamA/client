@@ -13,11 +13,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateNewPassword_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateNewPassword_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ForgotPassword_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ForgotPassword_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ResetPassword_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ResetPassword_Page.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -155,10 +150,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="69">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
                 <element signature="e#825#826#0" expanded="true" />
               </folding>
             </state>
@@ -455,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572468811220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Back button">
+      <created>1572569487032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572569487032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -468,7 +471,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="204" width="1440" height="828" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -486,11 +489,11 @@
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4996573" weight="0.3289941" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5143061" side_tool="true" visible="true" weight="0.37587658" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5143061" side_tool="true" visible="true" weight="0.33209416" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" weight="0.32777777" />
       <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.5765379" weight="0.21527778" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.48569384" visible="true" weight="0.37587658" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.48569384" visible="true" weight="0.33209416" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.4989719" weight="0.3289941" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.32889125" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
@@ -553,7 +556,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change to password pages" />
     <MESSAGE value="Documentation and change button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentation and change button" />
+    <MESSAGE value="Back button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back button" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/SubscribeOptions.java" />
@@ -927,10 +931,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="69">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
             <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
