@@ -22,6 +22,7 @@ import static android.provider.AlarmClock.EXTRA_MESSAGE;
  *       Profile, Settings, and Logout should only be available while logged in.
  */
 public class Login extends AppCompatActivity {
+
     private Button login;
     private Button createAccount;
     private TextView forgotPassword;
@@ -36,6 +37,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // Login button should listen for clicks and react by opening main menu
         login = findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +46,7 @@ public class Login extends AppCompatActivity {
                 openMenuPage();
             }
         });
+
 
         // CreateAccount button should listen for clicks and react by opening main menu
         createAccount = findViewById(R.id.createAccount);
@@ -54,6 +57,8 @@ public class Login extends AppCompatActivity {
             }
         });
 
+
+        //forgotPassword TextView should for the click and response by opening RestPassword_Page
         forgotPassword = findViewById(R.id.forgotPassword);
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,7 +76,6 @@ public class Login extends AppCompatActivity {
         Intent menuPage = new Intent(this, MenuPage.class);
         this.startActivity(menuPage);
     }
-
 
     /**
      * openCreateAccount should start the createAccount activity
@@ -107,15 +111,11 @@ public class Login extends AppCompatActivity {
         this.startActivity(profile);
     }
 
-
-
-
     /**
      * handleAboutUs should start aboutUs activity and show our vision statement
      */
-
     public void openForgotPasswordPage() {
-        Intent forgotPassword= new Intent(this, ForgotPassword_Page.class);
+        Intent forgotPassword = new Intent(this, ForgotPassword_Page.class);
         this.startActivity(forgotPassword);
     }
 }
