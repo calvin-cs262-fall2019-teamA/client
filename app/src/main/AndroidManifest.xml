@@ -22,6 +22,10 @@
         <activity android:name=".MessageGroup" />
         <activity android:name=".MessagePerson" />
         <activity android:name=".Messaging" />
+        <activity android:name=".Message" />
+        <activity android:name=".MessageAdapter" />
+        <activity android:name=".MessageViewHolder" />
+        <activity android:name=".MemberData" />
         <activity
             android:name=".Events2Page"
             android:label="@string/title_activity_events2_page"
