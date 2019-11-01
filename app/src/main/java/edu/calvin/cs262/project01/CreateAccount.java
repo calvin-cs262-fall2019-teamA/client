@@ -4,11 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-
 /**
  * CreateAccount class enable the new user join Calvinhealvia by  creating the account using Calvin email
  */
-
 public class CreateAccount extends AppCompatActivity {
 
     /**
