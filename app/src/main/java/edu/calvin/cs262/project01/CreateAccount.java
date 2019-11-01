@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 
-/*
+/**
  * CreateAccount class enable the new user join Calvinhealvia by  creating the account using Calvin email
  */
 
@@ -20,21 +20,12 @@ public class CreateAccount extends AppCompatActivity {
         Intent menuPage = new Intent(this, MenuPage.class);
         this.startActivity(menuPage);
     }
-5
 
-    // Stop the current acitivity from opening the previous pages onclick
-
-    @Override
-    public void onBackPressed() {
-        moveTaskToBack(false);
-    }
-
-    /*
+    /**
      * onCreate should set up listeners for  events and  create accounts
      * buttons and call the callback functions to start those activities
      * @param savedInstanceState
      */
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

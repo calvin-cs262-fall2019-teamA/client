@@ -18,7 +18,7 @@
         <activity android:name=".Settings" />
         <activity android:name=".Profile" />
         <activity android:name=".CreateAccount" android:noHistory="true"/>
-        <activity android:name=".MessageRecent" android:noHistory="true"/>
+        <activity android:name=".MessageRecent" />
         <activity android:name=".MessageGroup" />
         <activity android:name=".MessagePerson" />
         <activity android:name=".Messaging" />

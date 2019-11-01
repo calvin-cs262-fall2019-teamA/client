@@ -12,10 +12,7 @@ import android.widget.Button;
 /**
  * CreateNewPassword_Page  enable the users to create new password  after the forget the old password
  */
-
-
 public class CreateNewPassword_Page extends AppCompatActivity {
-
 
     private Button buttonComplete;
 
@@ -28,31 +25,18 @@ public class CreateNewPassword_Page extends AppCompatActivity {
         this.startActivity(buttonComplete);
     }
 
-    // Stop the current acitivity from opening the previous pages onclick
-
-    @Override
-    public void onBackPressed() {
-        moveTaskToBack(false);
-    }
-
-
-
-    /*
+    /**
      * onCreate should set up listeners forget password activity
      * buttons and call the callback functions to start those activities
      * @param savedInstanceState
      */
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_new_password__page);
-
         getIntent();
 
-
-
-        // Complete button  should listen for clicks and react by opening main menu
+        // Complete button should listen for clicks and react by opening main menu
         buttonComplete = findViewById(R.id.buttonComplete);
         buttonComplete.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,8 +45,5 @@ public class CreateNewPassword_Page extends AppCompatActivity {
                 openMenuPage();
             }
         });
-
-
-
     }
 }

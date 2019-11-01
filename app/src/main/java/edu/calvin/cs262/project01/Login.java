@@ -27,8 +27,6 @@ public class Login extends AppCompatActivity {
     private Button createAccount;
     private TextView forgotPassword;
 
-
-
     /**
      * onCreate should set up listeners for buttons on the login page
      * and use the callback functions to handle clicking those buttons
@@ -79,7 +77,6 @@ public class Login extends AppCompatActivity {
         this.startActivity(menuPage);
     }
 
-
     /**
      * openCreateAccount should start the createAccount activity
      */
@@ -88,7 +85,6 @@ public class Login extends AppCompatActivity {
         this.startActivity(createAccountPage);
     }
 
-
     /**
      * handleAboutUs should start aboutUs activity and show our vision statement
      */
@@ -96,7 +92,6 @@ public class Login extends AppCompatActivity {
         Intent aboutUs = new Intent(this, AboutUs.class);
         this.startActivity(aboutUs);
     }
-
 
     /**
      * logout handles logout click and redirects to login page
@@ -116,15 +111,11 @@ public class Login extends AppCompatActivity {
         this.startActivity(profile);
     }
 
-
-
-
     /**
      * handleAboutUs should start aboutUs activity and show our vision statement
      */
-
     public void openForgotPasswordPage() {
-        Intent forgotPassword= new Intent(this, ForgotPassword_Page.class);
+        Intent forgotPassword = new Intent(this, ForgotPassword_Page.class);
         this.startActivity(forgotPassword);
     }
 }

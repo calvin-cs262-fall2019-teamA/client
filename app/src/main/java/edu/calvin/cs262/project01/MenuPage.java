@@ -16,7 +16,7 @@ public class MenuPage extends AppCompatActivity {
     private Button Events;
     private Button Appointments;
 
-    /*
+    /**
      * onCreate should set up listeners for Messaging, Events, and Appointments
      * buttons and call the callback functions to start those activities
      * @param savedInstanceState
@@ -84,7 +84,7 @@ public class MenuPage extends AppCompatActivity {
     }
 
     /**
-     * openMessagePage should start the messaging activity
+     * openMessageRecent should start the Message Recent Page activity
      */
     private void openMessageRecent() {
         Intent openMessageRecent = new Intent(this, MessageRecent.class);

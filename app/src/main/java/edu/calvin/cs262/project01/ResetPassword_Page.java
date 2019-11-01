@@ -7,58 +7,39 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 /**
- * ResetPassword_Page  enable the users to confirm the code from their emails
+ * ResetPassword_Page enables the user to confirm the code from their emails
  */
-
-
 public class ResetPassword_Page extends AppCompatActivity {
 
-    private Button buttonFinish;
+    private Button continueButton;
 
-
-
-    /*
-     * openCreateNewPassword_page() method  should open the  CreateNewPassword_Page
+    /**
+     * openCreateNewPassword_page() method should open the CreateNewPassword_Page
      */
     public void openCreateNewPassword_page() {
         Intent buttonFinish = new Intent(this, CreateNewPassword_Page.class);
         this.startActivity(buttonFinish);
     }
 
-
-    // Stop the current acitivity from opening the previous pages onclick
-
-    @Override
-    public void onBackPressed() {
-        moveTaskToBack(false);
-    }
-
-
     /**
      * onCreate should display the password reset activity using the code from email
      * @param savedInstanceState
      */
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password__page);
         getIntent();
 
-
-
-        // finish  button  should listen for clicks and react by opening CreateNewPassword_page
-        buttonFinish = findViewById(R.id.buttonFinish);
-        buttonFinish.setOnClickListener(new View.OnClickListener() {
+        // continue  button  should listen for clicks and react by opening CreateNewPassword_page
+        continueButton = findViewById(R.id.continueButton);
+        continueButton.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View v) {
                 openCreateNewPassword_page();
             }
         });
-
-
     }
 }
