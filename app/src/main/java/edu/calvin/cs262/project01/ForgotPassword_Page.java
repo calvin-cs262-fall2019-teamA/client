@@ -2,6 +2,7 @@ package edu.calvin.cs262.project01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -26,8 +27,15 @@ public class ForgotPassword_Page extends AppCompatActivity {
     public void openResetPage() {
         Intent buttonReset = new Intent(this, ResetPassword_Page.class);
         this.startActivity(buttonReset);
+
     }
 
+    // Stop the current acitivity from opening the previous pages onclick
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(false);
+    }
 
     /**
      * onCreate should display the reset password  activity using the code from email
@@ -48,6 +56,7 @@ public class ForgotPassword_Page extends AppCompatActivity {
 
             public void onClick(View v){
                 openResetPage();
+
             }
         });
 

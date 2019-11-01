@@ -28,6 +28,14 @@ public class ResetPassword_Page extends AppCompatActivity {
     }
 
 
+    // Stop the current acitivity from opening the previous pages onclick
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(false);
+    }
+
+
     /**
      * onCreate should display the password reset activity using the code from email
      * @param savedInstanceState

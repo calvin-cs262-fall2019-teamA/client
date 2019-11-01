@@ -22,6 +22,13 @@ public class CreateAccount extends AppCompatActivity {
     }
 
 
+    // Stop the current acitivity from opening the previous pages onclick
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(false);
+    }
+
     /*
      * onCreate should set up listeners for  events and  create accounts
      * buttons and call the callback functions to start those activities

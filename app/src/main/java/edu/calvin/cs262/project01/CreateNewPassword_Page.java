@@ -3,6 +3,7 @@ package edu.calvin.cs262.project01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentSender;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,14 @@ public class CreateNewPassword_Page extends AppCompatActivity {
         this.startActivity(buttonComplete);
     }
 
+    // Stop the current acitivity from opening the previous pages onclick
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(false);
+    }
+
+
 
     /*
      * onCreate should set up listeners forget password activity
@@ -38,6 +47,7 @@ public class CreateNewPassword_Page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_new_password__page);
+
         getIntent();
 
 
@@ -51,6 +61,7 @@ public class CreateNewPassword_Page extends AppCompatActivity {
                 openMenuPage();
             }
         });
+
 
 
     }
