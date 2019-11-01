@@ -10,13 +10,15 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * MessageRecent.java is the first page that the user sees after clicking Messages in the menu page. In the MessageRecent activity page,
+ * the user is shown with various recent conversations the user was engaged in, a search button, and a button to initiate a new conversation.
+ */
 public class MessageRecent extends AppCompatActivity {
     private Button messageGroup;
 
-    /*
-     * onCreate should set up listeners for Messaging, Events, and Appointments
-     * buttons and call the callback functions to start those activities
-     * @param savedInstanceState
+    /**
+     * Opens up the MessageGroup activity page
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +37,12 @@ public class MessageRecent extends AppCompatActivity {
 
     }
 
-    /*
-     * Opens up the messaging page activity
+    /**
+     * onCreateOptionsMenu should create the dropdown menu button in the top right corner of each page.
+     * Options should include Profile, Settings, and Logout buttons
+     * @param menu
+     * @return true -- required return
      */
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -64,6 +67,9 @@ public class MessageRecent extends AppCompatActivity {
         this.startActivity(profile);
     }
 
+    /**
+     * openMessageGroup opens the MessageGroup class
+     */
     private void openMessageGroup() {
         Intent openMessageGroup = new Intent(this, MessageGroup.class);
         this.startActivity(openMessageGroup);

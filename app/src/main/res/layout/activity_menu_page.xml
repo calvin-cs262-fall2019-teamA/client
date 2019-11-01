@@ -24,7 +24,6 @@
         android:text="@string/messaging"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/menuItemTwo"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

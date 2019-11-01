@@ -9,11 +9,15 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * MessagePerson.java opens up the activity page in which the user can choose which user/group they'd like to talk to
+ * this page goes after the MessageGroup.java page
+ */
 public class MessagePerson extends AppCompatActivity {
     private Button messageCounselor;
 
-    /*
-     * Opens up the messaging page activity
+    /**
+     * Opens up the message person page activity page
      */
     @Override
     protected void onCreate(Bundle saveInstanceState) {
@@ -32,6 +36,12 @@ public class MessagePerson extends AppCompatActivity {
 
     }
 
+    /**
+     * onCreateOptionsMenu should create the dropdown menu button in the top right corner of each page.
+     * Options should include Profile, Settings, and Logout buttons
+     * @param menu
+     * @return true -- required return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -56,6 +66,9 @@ public class MessagePerson extends AppCompatActivity {
         this.startActivity(profile);
     }
 
+    /**
+     * openMessagePage opens the Message class
+     */
     private void openMessagePage() {
         Intent openMessagePage = new Intent(this, Messaging.class);
         this.startActivity(openMessagePage);
