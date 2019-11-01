@@ -20,7 +20,7 @@ public class CreateAccount extends AppCompatActivity {
         Intent menuPage = new Intent(this, MenuPage.class);
         this.startActivity(menuPage);
     }
-5
+
 
     // Stop the current acitivity from opening the previous pages onclick
 
