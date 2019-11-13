@@ -1,6 +1,6 @@
 package edu.calvin.cs262.project01.database;
 
-import java.util.Date;
+import java.sql.Date;
 import java.util.List;
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

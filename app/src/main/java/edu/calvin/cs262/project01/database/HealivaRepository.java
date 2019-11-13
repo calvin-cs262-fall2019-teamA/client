@@ -2,11 +2,9 @@ package edu.calvin.cs262.project01.database;
 
 import android.app.Application;
 import android.os.AsyncTask;
-
 import java.security.acl.Group;
 import java.sql.Date;
 import java.util.List;
-
 import androidx.lifecycle.LiveData;
 
 /**
@@ -99,10 +97,10 @@ public class HealivaRepository {
         return allAppointments;
     }
 
-    LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId) {
-        allAppointmentsByDate = appointmentDao.getAppointmentByDate(date, patientId, listenerId);
-        return allAppointmentsByDate;
-    }
+   LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId) {
+       allAppointmentsByDate = appointmentDao.getAppointmentByDate(date, patientId, listenerId);
+       return allAppointmentsByDate;
+   }
 
     LiveData<List<GroupEvent>> getAllGroupEvents() {
         return allGroupEvents;
