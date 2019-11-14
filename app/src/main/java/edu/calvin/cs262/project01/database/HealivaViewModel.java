@@ -25,10 +25,13 @@ public class HealivaViewModel extends AndroidViewModel {
     }
 
     // Get all from a table
-    LiveData<List<Person>> getAllPeople() { return allPeople; }
-    LiveData<List<GroupChat>> getGroupChatsForPerson(final int personId) {
+    public LiveData<List<Person>> getAllPeople() { return allPeople; }
+    public LiveData<List<GroupChat>> getGroupChatsForPerson(final int personId) {
         return mRepository.getGroupChatsForPerson(personId);
     }
+
+    // validate Login
+    public LiveData<List<Person>> findUser(String email, String password) { return mRepository.findUser(email, password); }
 
     // Insert methods
     public void insert(Person person) { mRepository.insert(person); }

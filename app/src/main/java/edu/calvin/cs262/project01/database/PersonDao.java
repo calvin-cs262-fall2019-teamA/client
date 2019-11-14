@@ -17,6 +17,7 @@ public interface PersonDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insert(Person person);
 
+//    ADMIN USE ONLY
 //    @Query("DELETE FROM person_table")
 //    void deleteAll();
 
@@ -31,6 +32,15 @@ public interface PersonDao {
 
     @Query("SELECT * from person_table WHERE isListener")
     LiveData<List<Person>> getAllListeners();
+
+    // Confirm log in credentials
+    @Query("SELECT * from person_table WHERE email=:email AND password=:password")
+    LiveData<List<Person>> findUser(final String email, final String password);
+
+    // Used to add to empty db
+    @Query("SELECT * from person_table LIMIT 1")
+    Person[] getAnyPerson();
+
 
 //    // Determine if person is fully anonymous
 //    @Query("SELECT * FROM person_table " +

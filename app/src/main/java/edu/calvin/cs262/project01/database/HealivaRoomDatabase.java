@@ -2,6 +2,8 @@ package edu.calvin.cs262.project01.database;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.util.Log;
+
 import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
@@ -73,8 +75,9 @@ public abstract class HealivaRoomDatabase extends RoomDatabase {
         @Override
         protected Void doInBackground(final Void... params) {
 
-//            // If we have no persons, then create the initial list of persons
-//            if (personDao.getAnyPerson().length < 1) {
+            // If we have no persons, then create the initial list of persons
+            if (personDao.getAnyPerson().length < 1) {
+                Log.d("DO IN BACKGROOUND DB", "doInBackground: NO PEOPLE YET");
 //                personDao.insert(new Person(
 //                        1234,
 //                        "ini23@students.calvin.edu",
@@ -90,7 +93,9 @@ public abstract class HealivaRoomDatabase extends RoomDatabase {
 //                        false,
 //                        false)
 //                );
-//            }
+            } else {
+                Log.d("DO IN BACKGROOUND DB", "doInBackground: ALREADY HAVE PERSON");
+            }
 
             return null;
         }

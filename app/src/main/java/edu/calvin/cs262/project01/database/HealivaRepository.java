@@ -2,9 +2,13 @@ package edu.calvin.cs262.project01.database;
 
 import android.app.Application;
 import android.os.AsyncTask;
+import android.util.Log;
+
 import java.security.acl.Group;
 import java.sql.Date;
 import java.util.List;
+
+import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 
 /**
@@ -60,6 +64,11 @@ public class HealivaRepository {
         // GroupEvent
         groupEventDao = db.groupEventDao();
         allGroupEvents = groupEventDao.getAllGroupEvents();
+    }
+
+    ////////////////// CONFIRM LOGIN ////////////////
+    LiveData<List<Person>> findUser(final String email, final String password) {
+        return personDao.findUser(email, password);
     }
 
     ////////////////// GET methods //////////////////
