@@ -1,7 +1,6 @@
 package edu.calvin.cs262.project01.database;
 
 import java.sql.Date;
-import java.sql.Time;
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -35,10 +34,10 @@ public class GroupEvent {
 
     @NonNull
     @ColumnInfo(name = "time")
-    private Time time;
+    private Date time;
 
     public GroupEvent(@NonNull Integer id, @NonNull String name, String description,
-                      @NonNull String location, @NonNull Date date, @NonNull Time time) {
+                      @NonNull String location, @NonNull Date date, @NonNull Date time) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -53,6 +52,6 @@ public class GroupEvent {
     public String getDescription(){return this.description;}
     public String getLocation(){return this.location;}
     public Date getDate(){return this.date;}
-    public Time getTime(){return this.time;}
+    public Date getTime(){return this.time;}
 
 }

@@ -1,6 +1,5 @@
 package edu.calvin.cs262.project01.database;
 
-import java.sql.Time;
 import java.sql.Date;
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -36,10 +35,10 @@ public class Appointment {
 
     @NonNull
     @ColumnInfo(name = "time")
-    private Time time;
+    private Date time;
 
     public Appointment(@NonNull Integer id, @NonNull String patientId, @NonNull String listenerId,
-                       @NonNull String location, @NonNull Date date, @NonNull Time time) {
+                       @NonNull String location, @NonNull Date date, @NonNull Date time) {
         this.id = id;
         this.patientId = patientId;
         this.listenerId = listenerId;
@@ -54,6 +53,6 @@ public class Appointment {
     public String getListenerId(){return this.listenerId;}
     public String getLocation(){return this.location;}
     public Date getDate(){return this.date;}
-    public Time getTime(){return this.time;}
+    public Date getTime(){return this.time;}
 }
 

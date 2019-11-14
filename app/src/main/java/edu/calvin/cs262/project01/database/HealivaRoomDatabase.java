@@ -2,17 +2,18 @@ package edu.calvin.cs262.project01.database;
 
 import android.content.Context;
 import android.os.AsyncTask;
-
 import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+import androidx.room.TypeConverters;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
 /**
  * Manage source data from Person table
  */
 @Database(entities = { Person.class, GroupChat.class, PersonGroupChatLink.class, GroupEvent.class, Appointment.class }, version = 1, exportSchema = false)
+@TypeConverters({Converters.class})
 public abstract class HealivaRoomDatabase extends RoomDatabase {
 
     public abstract PersonDao personDao();
