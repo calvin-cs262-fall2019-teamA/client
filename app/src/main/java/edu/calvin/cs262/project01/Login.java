@@ -1,16 +1,27 @@
 
 package edu.calvin.cs262.project01;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import edu.calvin.cs262.project01.database.HealivaViewModel;
+import edu.calvin.cs262.project01.database.Person;
 
 import android.app.assist.AssistStructure;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.List;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
@@ -26,6 +37,7 @@ public class Login extends AppCompatActivity {
     private Button login;
     private Button createAccount;
     private TextView forgotPassword;
+    HealivaViewModel healivaViewModel;
 
     /**
      * onCreate should set up listeners for buttons on the login page
@@ -37,13 +49,15 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Set up view model access
+        healivaViewModel = ViewModelProviders.of(this).get(HealivaViewModel.class);
 
         // Login button should listen for clicks and react by opening main menu
         login = findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                openMenuPage();
+                confirmAccount();
             }
         });
 
@@ -70,7 +84,32 @@ public class Login extends AppCompatActivity {
     }
 
     /**
-     * openMenuPage should start the menuPage activity
+     * confirmAccount should verify email and password
+     * Once verified menuPage should open up
+     */
+    public void confirmAccount() {
+        EditText loginEmail = findViewById(R.id.loginEmail);
+        EditText loginPassword = findViewById(R.id.loginPassword);
+        healivaViewModel.findUser(loginEmail.getText().toString(), loginPassword.getText().toString()).observe(this, new Observer<List<Person>>() {
+            @Override
+            public void onChanged(@Nullable final List<Person> matchedLogins) {
+                if(matchedLogins.size() > 0) {
+                    // Print person received by query
+                    Person currentPerson = matchedLogins.get(0);
+                    Log.d("||||||||||||||||", " \n"
+                            + "\nPassword: " + currentPerson.getPassword()
+                            + "\nEmail: " + currentPerson.getEmail()
+                            + "\nId: "    + currentPerson.getId());
+
+                    openMenuPage();
+                } else {
+                    Toast.makeText(Login.this, "Incorrect email or password.", Toast.LENGTH_SHORT).show();
+                }
+            }});
+    }
+
+    /**
+     * openMenuPage should open the menu page once an account is verified
      */
     public void openMenuPage() {
         Intent menuPage = new Intent(this, MenuPage.class);
