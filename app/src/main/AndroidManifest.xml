@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.calvin.cs262.project01">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,13 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CreateNewPassword_Page" android:noHistory="true"/>
-        <activity android:name=".ResetPassword_Page" android:noHistory="true"/>
-        <activity android:name=".ForgotPassword_Page" android:noHistory="true"/>
-        <activity android:name=".ResetPassword" android:noHistory="true"/>
+        <activity android:name=".ConfirmationPage"></activity>
+        <activity
+            android:name=".CreateNewPassword_Page"
+            android:noHistory="true" />
+        <activity
+            android:name=".ResetPassword_Page"
+            android:noHistory="true" />
+        <activity
+            android:name=".ForgotPassword_Page"
+            android:noHistory="true" />
+        <activity
+            android:name=".ResetPassword"
+            android:noHistory="true" />
         <activity android:name=".Settings" />
         <activity android:name=".Profile" />
-        <activity android:name=".CreateAccount" android:noHistory="true"/>
+        <activity
+            android:name=".CreateAccount"
+            android:noHistory="true" />
         <activity android:name=".MessageRecent" />
         <activity android:name=".MessageGroup" />
         <activity android:name=".MessagePerson" />
