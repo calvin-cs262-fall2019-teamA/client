@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 /**
  * MenuPage is responsible for handling menu item clicks and opening new activities
  * The menu page consists of buttons for Messaging, Events, and Appointments

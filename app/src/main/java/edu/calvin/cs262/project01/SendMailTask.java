@@ -15,11 +15,12 @@ public class SendMailTask extends AsyncTask {
     }
 
     protected void onPreExecute() {
-        statusDialog = new ProgressDialog(sendMailActivity);
-        statusDialog.setMessage("Getting ready...");
-        statusDialog.setIndeterminate(false);
-        statusDialog.setCancelable(false);
-        statusDialog.show();
+        // TODO: MUST FIND ALT WAY TO SHOW DIALOG. CAUSES ERRORS
+//        statusDialog = new ProgressDialog(sendMailActivity);
+//        statusDialog.setMessage("Getting ready...");
+//        statusDialog.setIndeterminate(false);
+//        statusDialog.setCancelable(false);
+//        statusDialog.show();
     }
 
     @Override
@@ -45,6 +46,6 @@ public class SendMailTask extends AsyncTask {
 
     @Override
     public void onPostExecute(Object result) {
-        statusDialog.dismiss();
+//        statusDialog.dismiss();
     }
 }

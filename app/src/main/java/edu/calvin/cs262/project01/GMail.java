@@ -35,9 +35,6 @@ public class GMail {
     Session mailSession;
     MimeMessage emailMessage;
 
-    public GMail() {
-
-    }
 
     public GMail(String fromEmail, String fromPassword,
                  String toEmailList, String emailSubject, String emailBody) {

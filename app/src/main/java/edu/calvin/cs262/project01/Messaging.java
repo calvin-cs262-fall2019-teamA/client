@@ -49,7 +49,7 @@ public class Messaging extends AppCompatActivity implements RoomListener {
         getIntent();
 
         //This is where we write the message
-        editText = (EditText) findViewById(R.id.editText);
+        editText = (EditText) findViewById(R.id.messageInputField);
 
         messageAdapter = new MessageAdapter(this);
         messagesView = (ListView) findViewById(R.id.messages_view);
