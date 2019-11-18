@@ -30,6 +30,11 @@ public interface PersonGroupChatLinkDao {
             "WHERE person_group_chat_link.personId=:personId")
     LiveData<List<GroupChat>> getGroupChatsForPerson(final int personId);
 
+    // Delete Group Chat Links by personId
+    @Query("DELETE FROM person_group_chat_link " +
+           "WHERE person_group_chat_link.personId=:personId")
+    void deleteGroupChatLinkByPerson(final int personId);
+
     @Query("DELETE FROM person_group_chat_link")
     void deleteAll();
 

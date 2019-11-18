@@ -39,6 +39,9 @@ public class Login extends AppCompatActivity {
     private TextView forgotPassword;
     HealivaViewModel healivaViewModel;
 
+    // This is a global variable to store the current user Person object
+    public static Person currentUser;
+
     /**
      * onCreate should set up listeners for buttons on the login page
      * and use the callback functions to handle clicking those buttons
@@ -101,6 +104,8 @@ public class Login extends AppCompatActivity {
                             + "\nEmail: " + currentPerson.getEmail()
                             + "\nId: "    + currentPerson.getId());
 
+                    // This is a global variable to store the current user Person object
+                    currentUser = currentPerson;
                     openMenuPage();
                 } else {
                     Toast.makeText(Login.this, "Incorrect email or password.", Toast.LENGTH_SHORT).show();

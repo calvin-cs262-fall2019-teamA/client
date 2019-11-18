@@ -37,6 +37,9 @@ public class HealivaViewModel extends AndroidViewModel {
     public void insert(Person person) { mRepository.insert(person); }
 
     // Delete methods
-    public void deletePerson(Person person) {mRepository.deletePerson(person);}
+    public void deletePerson(Person person) {
+        mRepository.deleteGroupChatLinkByPerson(person.getId());
+        mRepository.deletePerson(person);
+    }
 }
 
