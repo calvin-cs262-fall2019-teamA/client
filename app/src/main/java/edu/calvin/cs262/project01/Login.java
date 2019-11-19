@@ -3,17 +3,16 @@ package edu.calvin.cs262.project01;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
-import edu.calvin.cs262.project01.database.HealivaViewModel;
-import edu.calvin.cs262.project01.database.Person;
+import edu.calvin.cs262.project01.CreateAccount.CreateAccount;
+import edu.calvin.cs262.project01.ForgotPassword.ForgotPassword_Page;
+import edu.calvin.cs262.project01.Database.HealivaViewModel;
+import edu.calvin.cs262.project01.Database.Person;
 
-import android.app.assist.AssistStructure;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -22,8 +21,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 /**
  * Login is responsible for checking login credentials redirecting to the menuPage

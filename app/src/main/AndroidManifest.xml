@@ -12,15 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConfirmationPage"></activity>
+        <activity android:name=".CreateAccount.ConfirmationPage"></activity>
         <activity
-            android:name=".CreateNewPassword_Page"
+            android:name=".ForgotPassword.CreateNewPassword_Page"
             android:noHistory="true" />
         <activity
-            android:name=".ResetPassword_Page"
+            android:name=".ForgotPassword.ResetPassword_Page"
             android:noHistory="true" />
         <activity
-            android:name=".ForgotPassword_Page"
+            android:name=".ForgotPassword.ForgotPassword_Page"
             android:noHistory="true" />
         <activity
             android:name=".ResetPassword"
@@ -28,26 +28,26 @@
         <activity android:name=".Settings" />
         <activity android:name=".Profile" />
         <activity
-            android:name=".CreateAccount"
+            android:name=".CreateAccount.CreateAccount"
             android:noHistory="true" />
-        <activity android:name=".MessageRecent" />
-        <activity android:name=".MessageGroup" />
-        <activity android:name=".MessagePerson" />
-        <activity android:name=".Messaging" />
-        <activity android:name=".Message" />
-        <activity android:name=".MessageAdapter" />
+        <activity android:name=".Messaging.MessageRecent" />
+        <activity android:name=".Messaging.MessageGroup" />
+        <activity android:name=".Messaging.MessagePerson" />
+        <activity android:name=".Messaging.Messaging" />
+        <activity android:name=".Messaging.Message" />
+        <activity android:name=".Messaging.MessageAdapter" />
         <activity android:name=".MessageViewHolder" />
         <activity android:name=".MemberData" />
         <activity
-            android:name=".Events2Page"
+            android:name=".Events.Events2Page"
             android:label="@string/title_activity_events2_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Event1Page"
+            android:name=".Events.Event1Page"
             android:label="@string/title_activity_event1_page"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Appointments" />
-        <activity android:name=".EventsPage" />
+        <activity android:name=".Appointments.Appointments" />
+        <activity android:name=".Events.EventsPage" />
         <activity android:name=".MenuPage" />
         <activity android:name=".Login">
             <intent-filter>

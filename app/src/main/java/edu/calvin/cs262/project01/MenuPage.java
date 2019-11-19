@@ -6,6 +6,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
+import edu.calvin.cs262.project01.Events.EventsPage;
+import edu.calvin.cs262.project01.Messaging.MessageRecent;
 
 
 /**
@@ -80,7 +82,7 @@ public class MenuPage extends AppCompatActivity {
      * seeAppointments should start the Appointments activity
      */
     public void seeAppointments() {
-        Intent seeAppointments = new Intent(this, Appointments.class);
+        Intent seeAppointments = new Intent(this, edu.calvin.cs262.project01.Appointments.Appointments.class);
         this.startActivity(seeAppointments);
     }
 
