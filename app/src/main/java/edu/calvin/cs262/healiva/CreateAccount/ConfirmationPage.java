@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.Random;
@@ -18,6 +19,7 @@ import java.util.Random;
 public class ConfirmationPage extends AppCompatActivity {
     String emailText;
     String passwordText;
+    String verificationCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +29,22 @@ public class ConfirmationPage extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         emailText = extras.getString("EMAIL_TEXT");
         passwordText = extras.getString("PASSWORD_TEXT");
+        verificationCode = extras.getString("VERIFICATION_CODE");
         Log.d("Confirmation extras", emailText + passwordText);
 
     }
 
+    /**
+     * confirm will compare the code from the SendMailTask with the user's code input
+     * The strings must match to create the account. Otherwise user will get a Toast
+     * notifying then that the code does not match.
+     * @param view
+     */
     public void confirm(View view) {
-        // TODO: CONFIRM CODE
+        EditText verifyCodeInput = findViewById(R.id.verify_code);
 
-        Boolean codeConfirmed = true;
-        if (codeConfirmed) {
+        // If verification codes matches user input
+        if (verificationCode.equals(verifyCodeInput.getText().toString())) {
             // Add new person to db
             Person newPerson = new Person(
                 new Random().nextInt(),
@@ -59,8 +68,9 @@ public class ConfirmationPage extends AppCompatActivity {
             // Open Menu page and pass in new user email and password
             Intent menuPage = new Intent(this, MenuPage.class);
             this.startActivity(menuPage);
+
         } else {
-            Toast.makeText(this, "Code does not match", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Code does not match.", Toast.LENGTH_SHORT).show();
         }
         
     }
