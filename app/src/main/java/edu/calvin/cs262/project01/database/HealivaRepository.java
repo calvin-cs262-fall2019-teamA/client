@@ -102,14 +102,14 @@ public class HealivaRepository {
         return allPersonGroupChatLinks;
     }
 
+    LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId) {
+        allAppointmentsByDate = appointmentDao.getAppointmentByDate(date, patientId, listenerId);
+        return allAppointmentsByDate;
+    }
+
     LiveData<List<Appointment>> getAppointmnets() {
         return allAppointments;
     }
-
-   LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId) {
-       allAppointmentsByDate = appointmentDao.getAppointmentByDate(date, patientId, listenerId);
-       return allAppointmentsByDate;
-   }
 
     LiveData<List<GroupEvent>> getAllGroupEvents() {
         return allGroupEvents;
@@ -249,6 +249,28 @@ public class HealivaRepository {
         @Override
         protected Void doInBackground(final Person... params) {
             mAsyncTaskDao.deletePerson(params[0]);
+            return null;
+        }
+    }
+
+    ////////////// DELETE GROUP CHAT LINKS BY PERSON ID /////////////////
+    void deleteGroupChatLinkByPerson(Integer personId) {
+        new deleteGroupChatLinkAsyncTask(personGroupChatLinkDao).execute(personId);
+    }
+
+    /**
+     * Use AsyncTask to delete player from join and person tables
+     */
+    private static class deleteGroupChatLinkAsyncTask extends AsyncTask<Integer, Void, Void> {
+        private PersonGroupChatLinkDao personGroupChatLinkDao;
+
+        deleteGroupChatLinkAsyncTask(PersonGroupChatLinkDao dao) {
+            personGroupChatLinkDao = dao;
+        }
+
+        @Override
+        protected Void doInBackground(final Integer... params) {
+            personGroupChatLinkDao.deleteGroupChatLinkByPerson(params[0]);
             return null;
         }
     }
