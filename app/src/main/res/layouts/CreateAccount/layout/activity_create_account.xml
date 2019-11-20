@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount.CreateAccount"
+    android:background="@color/grey"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="371dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:baselineAligned="false"
+        android:text="@string/create_account"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Calvin_Email"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:paddingTop="13dp"
+        android:text="@string/calvin_email"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createAccount" />
+
+    <EditText
+        android:id="@+id/CalvinEmail"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:hint="@string/enter_calvin_email"
+        android:text=""
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:textColorHint="@color/hintGrey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Calvin_Email"
+        app:layout_constraintTop_toTopOf="@+id/Calvin_Email" />
+
+    <TextView
+        android:id="@+id/createPassword"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="28dp"
+        android:paddingTop="13dp"
+        android:text="Create Password:"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Calvin_Email" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:hint="@string/enter_password"
+        android:textColorHint="@color/hintGrey"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toEndOf="@+id/createPassword"
+        app:layout_constraintTop_toTopOf="@+id/createPassword" />
+
+    <TextView
+        android:id="@+id/ReviewTCond"
+        android:layout_width="311dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/review_terms_and_conditions"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPassword" />
+
+    <ScrollView
+        android:id="@+id/scrollViewTerms"
+        android:layout_width="359dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#ffffff"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReviewTCond">
+
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/agreeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="View and Agree To Terms"
+        android:checked="false"
+        android:textSize="19sp"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewTerms" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textColor="#ffffff"
+        android:onClick="handleCreateAccount"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreeCheckBox"
+        app:layout_constraintVertical_bias="0.72" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
