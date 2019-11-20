@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="verify_email">Verify email</string>
+    <string name="enter_code_here">Enter Code Here</string>
+    <string name="enter_code_description">We have sent a code to the email you provided. Please enter it below.</string>
+</resources>
