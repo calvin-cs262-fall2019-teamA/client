@@ -16,6 +16,7 @@ import android.widget.Toast;
 public class CreateAccount extends AppCompatActivity {
 
     // TODO: determine how to create unique ids. (maybe primary key is email + password?)
+    private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz";
     EditText calvinEmail;
     EditText password;
 
@@ -50,13 +51,15 @@ public class CreateAccount extends AppCompatActivity {
 
         // All is good, send email confirmation
         } else {
-            sendConfirmationEmail(emailText);
+            String verificationCode = randomAlphaNumeric();
+            sendConfirmationEmail(emailText, verificationCode);
 
             Intent confirmationPage = new Intent(this, ConfirmationPage.class);
 
             // Assign new person info to extra names to be identified after email confirmation
             confirmationPage.putExtra("EMAIL_TEXT", passwordText);
             confirmationPage.putExtra("PASSWORD_TEXT", emailText);
+            confirmationPage.putExtra("VERIFICATION_CODE", verificationCode);
             this.startActivity(confirmationPage);
         }
     }
@@ -73,8 +76,33 @@ public class CreateAccount extends AppCompatActivity {
         getIntent();
     }
 
-    public void sendConfirmationEmail(String emailAddress){
-        new SendMailTask(CreateAccount.this).execute("tproj811@gmail.com", "popethiopia123", emailAddress, "Test email", "This is the very first email from CalvinHeliva");
+    /**
+     * randomAlphaNumeric will create a random 10 character verification code to verify user's email
+     * @return alpha-numeric string
+     */
+    public static String randomAlphaNumeric() {
+        Integer count = 10;
+        StringBuilder builder = new StringBuilder();
+        while (count-- != 0) {
+            // Get a random character from ALPHA_NUMERIC_STRING
+            int character = (int)(Math.random()*ALPHA_NUMERIC_STRING.length());
+
+            // Add character to string
+            builder.append(ALPHA_NUMERIC_STRING.charAt(character));
+        }
+        return builder.toString();
+    }
+
+    /**
+     * sendConfirmationEmail starts SendMailTask to send user an email with a verification code
+     * email body is written in HTML and sent as a string
+     * @param emailAddress
+     */
+    public void sendConfirmationEmail(String emailAddress, String verificationCode){
+        new SendMailTask(CreateAccount.this).execute("tproj811@gmail.com", "popethiopia123", emailAddress, "Test email",
+                "This is your very first email from CalvinHeliva, welcome!<br/><br/>" +
+                "Please enter the code below on the confirmation page to create your account:<br/><br/>" +
+                "<b><font color=\"#97252B\">" + verificationCode + "</font></b>");
     }
 }
 
