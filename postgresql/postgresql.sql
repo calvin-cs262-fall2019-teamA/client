@@ -18,7 +18,8 @@ CREATE TABLE Person(
 		showPicture boolean,
 		phoneNum varchar(15) NOT NULL,
 		showPhoneNum boolean,
-		iscounselor boolean);
+		iscounselor boolean,
+		isListener boolean);
 
 --create a group chat
 CREATE TABLE groupChat(
@@ -60,13 +61,13 @@ GRANT SELECT ON groupEvent TO PUBLIC;
 GRANT SELECT ON appointment TO PUBLIC;
 
 -- insert to person: ID, email, name, password, showName, profleDescription, profPic, showPic, phoneNum, showPhoneNum
-INSERT INTO Person VALUES(1, 'sam@gmail.com', 'Sam', '12345', FALSE, 'I want to talk to people', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE); 
-INSERT INTO Person VALUES(2, 'sambridhi@gmail.com', 'Sebrina', '12345', TRUE, 'I want to go to group events', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE); 
-INSERT INTO Person VALUES(3, 'samsam@gmail.com', 'Hellen', '12345', FALSE, 'I am not sure', 'profpic.png',  TRUE, '616-555-6161', TRUE, FALSE); 
-INSERT INTO Person VALUES(4, 'sam123@gmail.com', 'John', '12345', TRUE, 'I like having conversation', 'profpic.png',  TRUE, '616-345-6161', FALSE, FALSE); 
-INSERT INTO Person VALUES(5, 'sam321@gmail.com', 'Jonhnathan', '12345', FALSE, 'I want to talk to people', 'profpic.png',  FALSE, '616-754-6161', FALSE, TRUE); 
-INSERT INTO Person VALUES(6, 'sam11@gmail.com', 'Vanderbee', '12345', TRUE, 'No description', 'profpic.png',  TRUE, '616-235-6161', TRUE, FALSE); 
-INSERT INTO Person VALUES(7, 'sam10@gmail.com', 'Devries', '12345', FALSE, NULL , 'profpic.png',  FALSE, '616-754-6161', FALSE, FALSE); 
+INSERT INTO Person VALUES(1, 'sam@gmail.com', 'Sam', '12345', FALSE, 'I want to talk to people', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE,FALSE); 
+INSERT INTO Person VALUES(2, 'sambridhi@gmail.com', 'Sebrina', '12345', TRUE, 'I want to go to group events', 'profpic.png',  FALSE, '616-616-6161', FALSE,TRUE,TRUE); 
+INSERT INTO Person VALUES(3, 'samsam@gmail.com', 'Hellen', '12345', FALSE, 'I am not sure', 'profpic.png',  TRUE, '616-555-6161', TRUE, FALSE, TRUE); 
+INSERT INTO Person VALUES(4, 'sam123@gmail.com', 'John', '12345', TRUE, 'I like having conversation', 'profpic.png',  TRUE, '616-345-6161', FALSE, FALSE, TRUE); 
+INSERT INTO Person VALUES(5, 'sam321@gmail.com', 'Jonhnathan', '12345', FALSE, 'I want to talk to people', 'profpic.png',  FALSE, '616-754-6161', FALSE, TRUE, TRUE); 
+INSERT INTO Person VALUES(6, 'sam11@gmail.com', 'Vanderbee', '12345', TRUE, 'No description', 'profpic.png',  TRUE, '616-235-6161', TRUE, FALSE, FALSE); 
+INSERT INTO Person VALUES(7, 'sam10@gmail.com', 'Devries', '12345', FALSE, NULL , 'profpic.png',  FALSE, '616-754-6161', FALSE, FALSE, FALSE); 
 
 --insert into group chat: ID, isPublic, name, description
 INSERT INTO groupChat VALUES(1, TRUE, 'Chat1' , 'This chat is for anxiety');
