@@ -21,6 +21,7 @@ public class Appointments extends AppCompatActivity {
 
     private CalendarView calendar;
     private TextView dateText;
+    private TextView appInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class Appointments extends AppCompatActivity {
         // Access page elements
         calendar = findViewById(R.id.calendarView);
         dateText = findViewById(R.id.dateText);
+        appInfo = findViewById(R.id.appointmentInfo);
 
         //-------------------Set default text for date header-----------------//
         long date = calendar.getDate();
@@ -66,6 +68,11 @@ public class Appointments extends AppCompatActivity {
                 // Create date string for heading and set text of heading
                 String dateTextString = monthText + " " + dayOfMonth + ", " + year;
                 dateText.setText(dateTextString);
+
+                if (month == 11 && dayOfMonth == 12){
+                    appInfo.setText("You have an with Dr.Strange at 2:30pm.");
+
+                }
             }
         });
     }
