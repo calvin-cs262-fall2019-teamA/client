@@ -5,23 +5,25 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.util.Log;
 
+/**
+ * Extends the AsyncTask for creating activity to send email
+ */
 public class SendMailTask extends AsyncTask {
-
     private ProgressDialog statusDialog;
     private Activity sendMailActivity;
 
+    /**
+     * Create an activity with send mail
+     * @param activity
+     */
     public SendMailTask(Activity activity) {
         sendMailActivity = activity;
     }
 
     protected void onPreExecute() {
-        // TODO: MUST FIND ALT WAY TO SHOW DIALOG. CAUSES ERRORS
-//        statusDialog = new ProgressDialog(sendMailActivity);
-//        statusDialog.setMessage("Getting ready...");
-//        statusDialog.setIndeterminate(false);
-//        statusDialog.setCancelable(false);
-//        statusDialog.show();
+        // TODO: MUST FIND ALT WAY TO SHOW DIALOG. CAUSES ERROR
     }
+
 
     @Override
     protected Object doInBackground(Object... args) {

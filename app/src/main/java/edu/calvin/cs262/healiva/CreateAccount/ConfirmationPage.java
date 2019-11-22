@@ -16,6 +16,9 @@ import android.widget.Toast;
 
 import java.util.Random;
 
+/**
+ * Confirmation page checks the code sent via email and confrims it
+ */
 public class ConfirmationPage extends AppCompatActivity {
     String emailText;
     String passwordText;
