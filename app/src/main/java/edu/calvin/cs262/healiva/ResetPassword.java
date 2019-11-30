@@ -64,6 +64,15 @@ public class ResetPassword extends AppCompatActivity {
     }
 
     /**
+     * handleClickMainMenu should bring user back to main Menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        Intent mainMenu = new Intent(this, MenuPage.class);
+        this.startActivity(mainMenu);
+    }
+
+    /**
      * handleSaveNewPassword should update user's password and return them to settings page
      * @param view
      */

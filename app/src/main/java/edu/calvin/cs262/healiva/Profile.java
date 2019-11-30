@@ -75,6 +75,15 @@ public class Profile extends AppCompatActivity {
     }
 
     /**
+     * handleClickMainMenu should bring user back to main Menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        Intent mainMenu = new Intent(this, MenuPage.class);
+        this.startActivity(mainMenu);
+    }
+
+    /**
      * handleFullAnonymity should
      *      disable other profile settings buttons and make user fully anonymous if anonymity is changed to on
      *      enable other profile settings buttons if anonymity is changed to off

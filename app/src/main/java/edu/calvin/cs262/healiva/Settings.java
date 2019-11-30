@@ -80,6 +80,15 @@ public class Settings extends AppCompatActivity {
     }
 
     /**
+     * handleClickMainMenu should bring user back to main Menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        Intent mainMenu = new Intent(this, MenuPage.class);
+        this.startActivity(mainMenu);
+    }
+
+    /**
      * handleResetPassword should bring user to change Password page
      * @param view
      */

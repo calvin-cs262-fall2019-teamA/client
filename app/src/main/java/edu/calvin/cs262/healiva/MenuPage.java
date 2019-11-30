@@ -120,4 +120,12 @@ public class MenuPage extends AppCompatActivity {
         Intent settings = new Intent(this, Settings.class);
         this.startActivity(settings);
     }
+
+    /**
+     * handleClickMainMenu should do nothing because we are already on the main menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        // Do nothing
+    }
 }

@@ -49,25 +49,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peerListener" />
 
-    <TextView
+    <Button
         android:id="@+id/goToProfile"
-        android:layout_width="356dp"
-        android:layout_height="46dp"
+        android:onClick="handleClickProfile"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="@string/view_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:onClick="handleClickProfile"
-        android:text="@string/to_view_profile_settings_see_profile_page"
-        android:textColor="#0070C0"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/deleteAccount"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintTop_toBottomOf="@+id/notifications" />
 
     <Button
         android:id="@+id/resetPassword"
@@ -75,32 +72,36 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/rectangle"
+        android:clickable="true"
+        android:focusable="true"
         android:onClick="handleResetPassword"
-        android:textColor="#ffffff"
         android:text="@string/reset_password"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/notifications" />
-
-    <Button
-        android:id="@+id/deleteAccount"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@color/hintGrey"
-        android:text="Delete Account"
-        android:onClick="handleDeleteAccount"
+        android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resetPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/goToProfile" />
+
+    <Button
+        android:id="@+id/deleteAccount"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/hintGrey"
+        android:text="@string/delete_account"
+        android:onClick="handleDeleteAccount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetPassword"
+        app:layout_constraintVertical_bias="0.033"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

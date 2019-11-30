@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import edu.calvin.cs262.healiva.Login;
+import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
 import edu.calvin.cs262.healiva.R;
 import edu.calvin.cs262.healiva.Settings;
@@ -67,5 +68,14 @@ public class Events2Page extends AppCompatActivity {
     public void handleClickSettings(MenuItem item) {
         Intent settings = new Intent(this, Settings.class);
         this.startActivity(settings);
+    }
+
+    /**
+     * handleClickMainMenu should bring user back to main Menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        Intent mainMenu = new Intent(this, MenuPage.class);
+        this.startActivity(mainMenu);
     }
 }
