@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.Toast;
 
 /**
  * Extends the AsyncTask for creating activity to send email
@@ -21,7 +22,6 @@ public class SendMailTask extends AsyncTask {
     }
 
     protected void onPreExecute() {
-        // TODO: MUST FIND ALT WAY TO SHOW DIALOG. CAUSES ERROR
     }
 
 
@@ -36,6 +36,7 @@ public class SendMailTask extends AsyncTask {
             publishProgress("Preparing mail message....");
             androidEmail.createEmailMessage();
             publishProgress("Sending email....");
+            Toast.makeText(sendMailActivity, "Sending...", Toast.LENGTH_SHORT).show();
             androidEmail.sendEmail();
             publishProgress("Email Sent.");
             Log.i("SendMailTask", "Mail Sent.");
@@ -48,6 +49,6 @@ public class SendMailTask extends AsyncTask {
 
     @Override
     public void onPostExecute(Object result) {
-//        statusDialog.dismiss();
+        Toast.makeText(sendMailActivity, "Email sent!", Toast.LENGTH_SHORT).show();
     }
 }

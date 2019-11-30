@@ -17,7 +17,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 /**
- * Confirmation page checks the code sent via email and confrims it
+ * Confirmation page checks the code sent via email and confirm it
  */
 public class ConfirmationPage extends AppCompatActivity {
     String emailText;
@@ -51,8 +51,8 @@ public class ConfirmationPage extends AppCompatActivity {
             // Add new person to db
             Person newPerson = new Person(
                 new Random().nextInt(),
-                passwordText,
                 emailText,
+                passwordText,
                 "",
                 false,
                 "",
@@ -76,5 +76,15 @@ public class ConfirmationPage extends AppCompatActivity {
             Toast.makeText(this, "Code does not match.", Toast.LENGTH_SHORT).show();
         }
         
+    }
+
+    /**
+     * sendNewCode should create and send a new code for the user to try again
+     * @param view
+     */
+    public void sendNewCode(View view) {
+        verificationCode = CreateAccount.randomAlphaNumeric();
+        CreateAccount.sendConfirmationEmail(ConfirmationPage.this, emailText, verificationCode);
+        Toast.makeText(this, "Sending...", Toast.LENGTH_SHORT).show();
     }
 }
