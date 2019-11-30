@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import edu.calvin.cs262.healiva.Login;
+import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
 import edu.calvin.cs262.healiva.R;
 import edu.calvin.cs262.healiva.Settings;
@@ -67,6 +68,15 @@ public class MessagePerson extends AppCompatActivity {
     public void handleClickProfile(MenuItem item) {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
+    }
+
+    /**
+     * handleClickMainMenu should bring user back to main Menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        Intent mainMenu = new Intent(this, MenuPage.class);
+        this.startActivity(mainMenu);
     }
 
     /**

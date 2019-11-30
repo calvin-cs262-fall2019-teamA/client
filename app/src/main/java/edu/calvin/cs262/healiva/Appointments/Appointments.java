@@ -2,6 +2,7 @@ package edu.calvin.cs262.healiva.Appointments;
 
 import androidx.appcompat.app.AppCompatActivity;
 import edu.calvin.cs262.healiva.Login;
+import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
 import edu.calvin.cs262.healiva.R;
 import edu.calvin.cs262.healiva.Settings;
@@ -150,5 +151,14 @@ public class Appointments extends AppCompatActivity {
     public void handleClickSettings(MenuItem item) {
         Intent settings = new Intent(this, Settings.class);
         this.startActivity(settings);
+    }
+
+    /**
+     * handleClickMainMenu should bring user back to main Menu page
+     * @param item
+     */
+    public void handleClickMainMenu(MenuItem item) {
+        Intent mainMenu = new Intent(this, MenuPage.class);
+        this.startActivity(mainMenu);
     }
 }
