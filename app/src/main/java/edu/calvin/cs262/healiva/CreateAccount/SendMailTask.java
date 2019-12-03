@@ -36,7 +36,6 @@ public class SendMailTask extends AsyncTask {
             publishProgress("Preparing mail message....");
             androidEmail.createEmailMessage();
             publishProgress("Sending email....");
-            Toast.makeText(sendMailActivity, "Sending...", Toast.LENGTH_SHORT).show();
             androidEmail.sendEmail();
             publishProgress("Email Sent.");
             Log.i("SendMailTask", "Mail Sent.");
