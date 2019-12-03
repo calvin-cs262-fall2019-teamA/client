@@ -54,7 +54,9 @@ public class CreateAccount extends AppCompatActivity {
         // All is good, send email confirmation
         } else {
             String verificationCode = randomAlphaNumeric();
-            sendConfirmationEmail(CreateAccount.this, emailText, verificationCode);
+            String emailBody = "This is your very first email from CalvinHeliva, welcome!<br/><br/>" +
+            "Please enter the code below on the confirmation page to create your account:<br/><br/>";
+            sendConfirmationEmail(CreateAccount.this, emailText, verificationCode, emailBody);
 
             Intent confirmationPage = new Intent(this, ConfirmationPage.class);
 
@@ -101,11 +103,11 @@ public class CreateAccount extends AppCompatActivity {
      * @param activity the context for the mail task to execute. Should be calling activity
      * @param emailAddress user's email
      * @param verificationCode String code that user should receive by mail and confirm
+     * @param mainEmailBody Main message of body. Verification code is hard coded
      */
-    public static void sendConfirmationEmail(Activity activity, String emailAddress, String verificationCode){
+    public static void sendConfirmationEmail(Activity activity, String emailAddress, String verificationCode, String mainEmailBody){
         new SendMailTask(activity).execute("tproj811@gmail.com", "popethiopia123", emailAddress, "Test email",
-                "This is your very first email from CalvinHeliva, welcome!<br/><br/>" +
-                "Please enter the code below on the confirmation page to create your account:<br/><br/>" +
+                mainEmailBody +
                 "<b><font color=\"#97252B\">" + verificationCode + "</font></b>");
     }
 }
