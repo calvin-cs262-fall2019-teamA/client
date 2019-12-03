@@ -84,7 +84,9 @@ public class ConfirmationPage extends AppCompatActivity {
      */
     public void sendNewCode(View view) {
         verificationCode = CreateAccount.randomAlphaNumeric();
-        CreateAccount.sendConfirmationEmail(ConfirmationPage.this, emailText, verificationCode);
+        String emailBody = "You requested a new code.<br/><br/>" +
+        "Please enter the code below on the confirmation page to create your account:<br/><br/>";
+        CreateAccount.sendConfirmationEmail(ConfirmationPage.this, emailText, verificationCode, emailBody);
         Toast.makeText(this, "Sending...", Toast.LENGTH_SHORT).show();
     }
 }

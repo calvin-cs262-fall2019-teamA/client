@@ -41,7 +41,9 @@ public interface PersonDao {
     @Query("SELECT * from person_table LIMIT 1")
     Person[] getAnyPerson();
 
-
+    // Confirm log in credentials
+    @Query("SELECT * from person_table WHERE email=:email")
+    LiveData<List<Person>> findPerson(final String email);
 //    // Determine if person is fully anonymous
 //    @Query("SELECT * FROM person_table " +
 //           "WHERE id=:id " +

@@ -68,6 +68,10 @@ public class HealivaRepository {
         return personDao.findUser(email, password);
     }
 
+    LiveData<List<Person>> findPerson(final String email) {
+        return personDao.findPerson(email);
+    }
+
     ////////////////// GET methods //////////////////
     LiveData<List<Person>> getAllCounselors() {
         return allCounselors;

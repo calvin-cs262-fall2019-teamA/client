@@ -7,40 +7,53 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * ResetPassword_Page enables the user to confirm the code from their emails
  */
 public class ResetPassword_Page extends AppCompatActivity {
 
-    private Button continueButton;
+    String verificationCode;
 
-    /**
-     * openCreateNewPassword_page() method should open the CreateNewPassword_Page
-     */
-    public void openCreateNewPassword_page() {
-        Intent buttonFinish = new Intent(this, CreateNewPassword_Page.class);
-        this.startActivity(buttonFinish);
-    }
 
-    /**
-     * onCreate should display the password reset activity using the code from email
-     * @param savedInstanceState
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password__page);
-        getIntent();
 
-        // continue  button  should listen for clicks and react by opening CreateNewPassword_page
-        continueButton = findViewById(R.id.continueButton);
-        continueButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+        Bundle extras = getIntent().getExtras();
+        //emailText = extras.getString("EMAIL_TEXT");
+        //passwordText = extras.getString("PASSWORD_TEXT");
+        verificationCode = extras.getString("VERIFICATION_CODE");
+        //Log.d("Confirmation extras", emailText + passwordText);
 
-            public void onClick(View v) {
-                openCreateNewPassword_page();
-            }
-        });
     }
+
+
+    /**
+     * handleCreateAccount() should
+     *      - check password
+     *      - check for a calvin email
+     *      - check for terms agreed
+     *      - send confirmation email to validate account
+     * @param view
+     */
+    public void handleConfirmCode(View view) {
+
+        // Retrieve input text and checkbox state
+        EditText confirmCode = findViewById(R.id.editTextCodeNUM);
+        String Code = confirmCode.getText().toString();
+
+        if (verificationCode.equals(Code)) {
+
+            Intent createNewPass = new Intent(this, CreateNewPassword_Page.class);
+            this.startActivity(createNewPass);
+        } else {
+            Toast.makeText(this, "Code does not match.", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
 }
