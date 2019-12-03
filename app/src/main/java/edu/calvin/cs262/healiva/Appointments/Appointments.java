@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.CalendarView;
 import android.widget.TextView;
 import java.util.Calendar;
@@ -23,6 +24,7 @@ public class Appointments extends AppCompatActivity {
     private CalendarView calendar;
     private TextView dateText;
     private TextView appInfo;
+    private final Integer NEW_APPT_RESULT = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -160,5 +162,30 @@ public class Appointments extends AppCompatActivity {
     public void handleClickMainMenu(MenuItem item) {
         Intent mainMenu = new Intent(this, MenuPage.class);
         this.startActivity(mainMenu);
+    }
+
+    /**
+     * handleNewAppointment should start activity to add new appointment
+     * then return to appt page with updated info
+     * @param view
+     */
+    public void handleNewAppointment(View view) {
+        Intent newAppointment = new Intent(this, NewAppointment.class);
+
+        startActivityForResult(newAppointment, NEW_APPT_RESULT);
+        this.startActivity(newAppointment);
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == NEW_APPT_RESULT) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+                // IDK yet
+            }
+        }
     }
 }

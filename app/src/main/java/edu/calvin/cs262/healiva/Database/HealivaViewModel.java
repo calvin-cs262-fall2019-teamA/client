@@ -30,6 +30,8 @@ public class HealivaViewModel extends AndroidViewModel {
         return mRepository.getGroupChatsForPerson(personId);
     }
 
+    public LiveData<List<Person>> getAllListeners() {return mRepository.getAllListeners(); }
+
     public LiveData<List<Person>> findPerson(String email) { return mRepository.findPerson(email);}
 
     // validate Login
