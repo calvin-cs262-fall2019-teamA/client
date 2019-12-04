@@ -1,6 +1,8 @@
 package edu.calvin.cs262.healiva.Appointments;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProviders;
+import edu.calvin.cs262.healiva.Database.HealivaViewModel;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -9,6 +11,7 @@ import edu.calvin.cs262.healiva.Settings;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,6 +24,7 @@ import java.util.Calendar;
  */
 public class Appointments extends AppCompatActivity {
 
+    HealivaViewModel healivaViewModel;
     private CalendarView calendar;
     private TextView dateText;
     private TextView appInfo;
@@ -30,6 +34,9 @@ public class Appointments extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointments);
+
+        // Set up DB
+        healivaViewModel = ViewModelProviders.of(this).get(HealivaViewModel.class);
 
         // Access page elements
         calendar = findViewById(R.id.calendarView);
@@ -74,7 +81,6 @@ public class Appointments extends AppCompatActivity {
 
                 if (month == 11 && dayOfMonth == 12){
                     appInfo.setText("You have an with Dr.Strange at 2:30pm.");
-
                 }
             }
         });
@@ -170,10 +176,9 @@ public class Appointments extends AppCompatActivity {
      * @param view
      */
     public void handleNewAppointment(View view) {
-        Intent newAppointment = new Intent(this, NewAppointment.class);
+        Intent newAppointment = new Intent(Appointments.this, NewAppointment.class);
 
         startActivityForResult(newAppointment, NEW_APPT_RESULT);
-        this.startActivity(newAppointment);
     }
 
 
@@ -184,7 +189,20 @@ public class Appointments extends AppCompatActivity {
         if (requestCode == NEW_APPT_RESULT) {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
-                // IDK yet
+                Integer listenerID = data.getIntExtra("LISTENER_ID", 0);
+                String time = data.getStringExtra("TIME");
+
+                // Listener text
+//                String name = healivaViewModel.getNameFromId(listenerID);
+//                if (name.equals("")) {
+//                    name = healivaViewModel.getEmailFromId(listenerID);
+//                }
+
+                // INSTEAD, SAVE TO DB, then based on caledar date, display relevent info
+                appInfo.setText("Pending approval:" +
+                        "\n Appointment with " + listenerID +
+                        " at " + time + ".");
+//                Log.d("|||||||", "onActivityResult: listener" + listenerID + "time" + time);
             }
         }
     }

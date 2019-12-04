@@ -13,13 +13,16 @@ import edu.calvin.cs262.healiva.Profile;
 import edu.calvin.cs262.healiva.R;
 import edu.calvin.cs262.healiva.Settings;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,8 +36,9 @@ import java.util.List;
 public class NewAppointment extends AppCompatActivity {
 
     private Spinner personDropdown;
-    private List<String> dropdownOptions = new ArrayList<>();
+    private List<StringWithId> dropdownOptions = new ArrayList<>();
     HealivaViewModel healivaViewModel;
+    ArrayAdapter<StringWithId> personDropdownAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,17 +62,19 @@ public class NewAppointment extends AppCompatActivity {
                             + "\nId: "    + currentPerson.getId());
 
                     if (currentPerson.getShowName()) {
-                        dropdownOptions.add(currentPerson.getName());
+                        StringWithId person = new StringWithId(currentPerson.getName(), currentPerson.getId());
+                        dropdownOptions.add(person);
                     } else {
-                        dropdownOptions.add(currentPerson.getEmail());
+                        StringWithId person = new StringWithId(currentPerson.getEmail(), currentPerson.getId());
+                        dropdownOptions.add(person);
                     }
                 }
 
                 // Add people to dropdown
                 personDropdown = findViewById(R.id.personDropdown);
-                ArrayAdapter<String> adapter = new ArrayAdapter<>(NewAppointment.this, R.layout.spinner_layout, dropdownOptions);
-                adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
-                personDropdown.setAdapter(adapter);
+                personDropdownAdapter = new ArrayAdapter<>(NewAppointment.this, R.layout.spinner_layout, dropdownOptions);
+                personDropdownAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+                personDropdown.setAdapter(personDropdownAdapter);
             }});
     }
 
@@ -118,5 +124,25 @@ public class NewAppointment extends AppCompatActivity {
     public void handleClickMainMenu(MenuItem item) {
         Intent mainMenu = new Intent(this, MenuPage.class);
         this.startActivity(mainMenu);
+    }
+
+
+    /**
+     * onRequest read data from input to create new appointment
+     * add to table
+     * display on appt calendar
+     * @param view
+     */
+    public void onRequest(View view) {
+        // Use selected item position to get unique person id from dropdown
+        Integer selectedDropdownItemPos = personDropdown.getSelectedItemPosition();
+        StringWithId selectedItem = dropdownOptions.get(selectedDropdownItemPos);
+        EditText requestedTime = findViewById(R.id.timeInput);
+
+        // Set result and close activity
+        Log.d("|||||||||", "onRequest: Got inside" + selectedItem.getId());
+        setResult(Activity.RESULT_OK,
+        new Intent().putExtra("LISTENER_ID", selectedItem.getId()).putExtra("TIME", requestedTime.getText().toString()));
+        finish();
     }
 }

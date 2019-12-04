@@ -3,7 +3,9 @@ package edu.calvin.cs262.healiva.Messaging;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.StateListDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -66,8 +68,8 @@ public class MessageAdapter extends BaseAdapter {
 
             holder.name.setText(message.getMemberData().getName());
             holder.messageBody.setText(message.getText());
-            GradientDrawable drawable = (GradientDrawable) holder.avatar.getBackground();
-            drawable.setColor(Color.parseColor(message.getMemberData().getColor()));
+            StateListDrawable drawable = (StateListDrawable) holder.avatar.getBackground();
+//            drawable.setColor(Color.parseColor(message.getMemberData().getColor()));
         }
 
         return convertView;

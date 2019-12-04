@@ -37,11 +37,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choosePersonLabel"
         />
-    <!--        android:backgroundTint="@color/colorPrimary"-->
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/choosePersonLabel" />
 
     <TextView
         android:id="@+id/setTimeLabel"
@@ -62,7 +57,7 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <EditText
-        android:id="@+id/timeIInput"
+        android:id="@+id/timeInput"
         android:textSize="20sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -86,12 +81,13 @@
         android:layout_marginRight="30dp"
         android:background="@color/colorPrimary"
         android:text="Request"
+        android:onClick="onRequest"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeIInput"
+        app:layout_constraintTop_toBottomOf="@+id/timeInput"
         app:layout_constraintVertical_bias="0.053" />
 
 

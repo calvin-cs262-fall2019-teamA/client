@@ -33,6 +33,12 @@ public interface PersonDao {
     @Query("SELECT * from person_table WHERE isListener")
     LiveData<List<Person>> getAllListeners();
 
+    @Query("SELECT name from person_table WHERE id=:id")
+    String getNameFromId(Integer id);
+
+    @Query("SELECT email from person_table WHERE id=:id")
+    String getEmailFromId(Integer id);
+
     // Confirm log in credentials
     @Query("SELECT * from person_table WHERE email=:email AND password=:password")
     LiveData<List<Person>> findUser(final String email, final String password);

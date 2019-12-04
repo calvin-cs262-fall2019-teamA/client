@@ -32,6 +32,10 @@ public class HealivaViewModel extends AndroidViewModel {
 
     public LiveData<List<Person>> getAllListeners() {return mRepository.getAllListeners(); }
 
+    public String getNameFromId(Integer id) { return mRepository.getNameFromId(id); }
+
+    public String getEmailFromId(Integer id) { return mRepository.getEmailFromId(id); }
+
     public LiveData<List<Person>> findPerson(String email) { return mRepository.findPerson(email);}
 
     // validate Login

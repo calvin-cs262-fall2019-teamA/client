@@ -77,6 +77,10 @@ public class HealivaRepository {
         return allCounselors;
     }
 
+    String getNameFromId(Integer id) { return personDao.getNameFromId(id); }
+
+    String getEmailFromId(Integer id) { return personDao.getEmailFromId(id); }
+
     LiveData<List<Person>> getAllListeners() {
         return allListeners;
     }
