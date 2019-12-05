@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="4dp"
         android:text="Rose"
+        android:textColor="#ffffff"
         android:layout_marginStart="15dp" />
 
     <TextView
