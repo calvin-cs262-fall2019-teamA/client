@@ -39,7 +39,7 @@ public class HealivaViewModel extends AndroidViewModel {
     public LiveData<List<Person>> findPerson(String email) { return mRepository.findPerson(email);}
 
     // Get Appt by date
-    public LiveData<List<Appointment>> getAppointmentByDate(String date, Integer currentUserId) { return mRepository.getAppointmentByDate(date, currentUserId); };
+    public LiveData<List<Appointment>> getAllAppointments() { return mRepository.getAllAppointments(); }
 
     // validate Login
     public LiveData<List<Person>> findUser(String email, String password) { return mRepository.findUser(email, password); }

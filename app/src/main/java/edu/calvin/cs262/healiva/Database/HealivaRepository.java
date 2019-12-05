@@ -117,8 +117,8 @@ public class HealivaRepository {
 
 
     ////////////////// GET APPT BY DATE //////////////////
-    LiveData<List<Appointment>> getAppointmentByDate(final String date, final Integer currentUserId) {
-        return appointmentDao.getAppointmentByDate(date, currentUserId);
+    LiveData<List<Appointment>> getAllAppointments() {
+        return appointmentDao.getAllAppointments();
     }
 
     ////////////////// INSERT PERSON //////////////////

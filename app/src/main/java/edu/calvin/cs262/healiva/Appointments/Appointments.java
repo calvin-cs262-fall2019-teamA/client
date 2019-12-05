@@ -25,7 +25,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -39,6 +41,7 @@ public class Appointments extends AppCompatActivity {
     private TextView appInfo;
     private String dateTextString;
     private final Integer NEW_APPT_RESULT = 1;
+    private Map apptsByDate = new HashMap();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +76,41 @@ public class Appointments extends AppCompatActivity {
         dateText.setText(defaultDateText);
         //---------------(End) Set default text for date header-----------------//
 
+        healivaViewModel.getAllAppointments().observe(Appointments.this, new Observer<List<Appointment>>() {
+            @Override
+            public void onChanged(@Nullable final List<Appointment> userAppts) {
+                String appointmentString = "";
+                Log.d("|||||||||||", "onChanged: For Appointment");
+                for (Integer i = 0; i < userAppts.size(); i++) {
+
+                    Appointment currentAppt = userAppts.get(i);
+                    Integer listenerId = currentAppt.getListenerId();
+                    String name = healivaViewModel.getNameFromId(listenerId);
+
+                    if (name.equals("")) {
+                        name = healivaViewModel.getEmailFromId(listenerId);
+                    }
+
+                    appointmentString += "Pending approval:" +
+                            "\n Appointment with " + name +
+                            " at " + currentAppt.getTime() + ".\n";
+
+                    String currentDate = currentAppt.getDate();
+                    String currentDateValue = (String)apptsByDate.get(currentDate);
+
+                    String newValue;
+                    if (currentDateValue != null) {
+                        newValue = currentDateValue + appointmentString;
+
+                    } else {
+                        newValue = appointmentString;
+                    }
+
+                    apptsByDate.put(currentDate, newValue);
+                }
+            }}
+        );
+
         /**
          * setOnDateChangeListener should select the date and show it under the calendar with
          * information about that day's appointments
@@ -89,37 +127,16 @@ public class Appointments extends AppCompatActivity {
                 dateTextString = monthText + " " + dayOfMonth + ", " + year;
                 dateText.setText(dateTextString);
 
-                //////////////////////// GET APPOINTMENT ////////////////////////
-                healivaViewModel.getAppointmentByDate(dateTextString, Login.currentUser.getId()).observe(Appointments.this, new Observer<List<Appointment>>() {
-                    @Override
-                    public void onChanged(@Nullable final List<Appointment> userAppts) {
-                        String appointmentString = "";
-                        Log.d("|||||||||||", "onChanged: For Appointment");
-                        for (Integer i = 0; i < userAppts.size(); i++) {
+                String currentDateValue = (String)apptsByDate.get(dateTextString);
+                if (currentDateValue == null) {
+                    currentDateValue = "You have no appointments for this date.";
+                }
 
-                            Appointment currentAppt = userAppts.get(i);
-                            Integer listenerId = currentAppt.getListenerId();
-                            String name = healivaViewModel.getNameFromId(listenerId);
-
-                            if (name.equals("")) {
-                                name = healivaViewModel.getEmailFromId(listenerId);
-                            }
-
-                            appointmentString += "Pending approval:" +
-                                    "\n Appointment with " + name +
-                                    " at " + currentAppt.getTime() + ".\n";
-                        }
-
-                        if (appointmentString == "") {
-                            appointmentString = "You have no appointments for this date.";
-                        }
-
-                        appInfo.setText(appointmentString);
+                appInfo.setText(currentDateValue);
 
 //                if (month == 11 && dayOfMonth == 12){
 //                    appInfo.setText("You have an with Dr.Strange at 2:30pm.");
 //                }
-                    }});
             }
         });
     }
