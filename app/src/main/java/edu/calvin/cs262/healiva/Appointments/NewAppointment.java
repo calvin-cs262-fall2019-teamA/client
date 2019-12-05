@@ -142,7 +142,10 @@ public class NewAppointment extends AppCompatActivity {
         // Set result and close activity
         Log.d("|||||||||", "onRequest: Got inside" + selectedItem.getId());
         setResult(Activity.RESULT_OK,
-        new Intent().putExtra("LISTENER_ID", selectedItem.getId()).putExtra("TIME", requestedTime.getText().toString()));
+        new Intent()
+                .putExtra("LISTENER_NAME", selectedItem.toString())
+                .putExtra("LISTENER_ID", selectedItem.getId())
+                .putExtra("TIME", requestedTime.getText().toString()));
         finish();
     }
 }

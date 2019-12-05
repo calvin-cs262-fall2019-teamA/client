@@ -31,7 +31,7 @@ public class HealivaRepository {
     // Appointment declarations
     private AppointmentDao appointmentDao;
     LiveData<List<Appointment>> allAppointments;
-    LiveData<List<Appointment>> allAppointmentsByDate;
+    List<Appointment> allAppointmentsByDate;
 
     // GroupEvent declarations
     private GroupEventDao groupEventDao;
@@ -107,17 +107,18 @@ public class HealivaRepository {
         return allPersonGroupChatLinks;
     }
 
-    LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId) {
-        allAppointmentsByDate = appointmentDao.getAppointmentByDate(date, patientId, listenerId);
-        return allAppointmentsByDate;
-    }
-
     LiveData<List<Appointment>> getAppointmnets() {
         return allAppointments;
     }
 
     LiveData<List<GroupEvent>> getAllGroupEvents() {
         return allGroupEvents;
+    }
+
+
+    ////////////////// GET APPT BY DATE //////////////////
+    LiveData<List<Appointment>> getAppointmentByDate(final String date, final Integer currentUserId) {
+        return appointmentDao.getAppointmentByDate(date, currentUserId);
     }
 
     ////////////////// INSERT PERSON //////////////////

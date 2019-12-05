@@ -19,11 +19,11 @@ public class Appointment {
 
     @NonNull
     @ColumnInfo(name = "patientId")
-    private String patientId;
+    private Integer patientId;
 
     @NonNull
     @ColumnInfo(name = "listenerId")
-    private String listenerId;
+    private Integer listenerId;
 
     @NonNull
     @ColumnInfo(name = "location")
@@ -31,14 +31,14 @@ public class Appointment {
 
     @NonNull
     @ColumnInfo(name = "date")
-    private Date date;
+    private String date;
 
     @NonNull
     @ColumnInfo(name = "time")
-    private Date time;
+    private String time;
 
-    public Appointment(@NonNull Integer id, @NonNull String patientId, @NonNull String listenerId,
-                       @NonNull String location, @NonNull Date date, @NonNull Date time) {
+    public Appointment(@NonNull Integer id, @NonNull Integer patientId, @NonNull Integer listenerId,
+                       @NonNull String location, @NonNull String date, @NonNull String time) {
         this.id = id;
         this.patientId = patientId;
         this.listenerId = listenerId;
@@ -49,10 +49,10 @@ public class Appointment {
 
     // Getters
     public Integer getId(){return this.id;}
-    public String getPatientId(){return this.patientId;}
-    public String getListenerId(){return this.listenerId;}
+    public Integer getPatientId(){return this.patientId;}
+    public Integer getListenerId(){return this.listenerId;}
     public String getLocation(){return this.location;}
-    public Date getDate(){return this.date;}
-    public Date getTime(){return this.time;}
+    public String getDate(){return this.date;}
+    public String getTime(){return this.time;}
 }
 

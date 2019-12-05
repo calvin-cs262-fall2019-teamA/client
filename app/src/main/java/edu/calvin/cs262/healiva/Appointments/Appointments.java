@@ -1,8 +1,13 @@
 package edu.calvin.cs262.healiva.Appointments;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import edu.calvin.cs262.healiva.Database.Appointment;
 import edu.calvin.cs262.healiva.Database.HealivaViewModel;
+import edu.calvin.cs262.healiva.Database.Person;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -17,7 +22,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.CalendarView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import java.util.Calendar;
+import java.util.List;
+import java.util.Random;
 
 /**
  * Appointments displays calendar for setting and viewing appointments
@@ -28,6 +37,7 @@ public class Appointments extends AppCompatActivity {
     private CalendarView calendar;
     private TextView dateText;
     private TextView appInfo;
+    private String dateTextString;
     private final Integer NEW_APPT_RESULT = 1;
 
     @Override
@@ -44,7 +54,7 @@ public class Appointments extends AppCompatActivity {
         appInfo = findViewById(R.id.appointmentInfo);
 
         //-------------------Set default text for date header-----------------//
-        long date = calendar.getDate();
+        final long date = calendar.getDate();
 
         // create instance to use for retrieving values
         Calendar  calendarInstance = Calendar.getInstance();
@@ -76,12 +86,40 @@ public class Appointments extends AppCompatActivity {
                 String monthText = getMonthText(month);
 
                 // Create date string for heading and set text of heading
-                String dateTextString = monthText + " " + dayOfMonth + ", " + year;
+                dateTextString = monthText + " " + dayOfMonth + ", " + year;
                 dateText.setText(dateTextString);
 
-                if (month == 11 && dayOfMonth == 12){
-                    appInfo.setText("You have an with Dr.Strange at 2:30pm.");
-                }
+                //////////////////////// GET APPOINTMENT ////////////////////////
+                healivaViewModel.getAppointmentByDate(dateTextString, Login.currentUser.getId()).observe(Appointments.this, new Observer<List<Appointment>>() {
+                    @Override
+                    public void onChanged(@Nullable final List<Appointment> userAppts) {
+                        String appointmentString = "";
+                        Log.d("|||||||||||", "onChanged: For Appointment");
+                        for (Integer i = 0; i < userAppts.size(); i++) {
+
+                            Appointment currentAppt = userAppts.get(i);
+                            Integer listenerId = currentAppt.getListenerId();
+                            String name = healivaViewModel.getNameFromId(listenerId);
+
+                            if (name.equals("")) {
+                                name = healivaViewModel.getEmailFromId(listenerId);
+                            }
+
+                            appointmentString += "Pending approval:" +
+                                    "\n Appointment with " + name +
+                                    " at " + currentAppt.getTime() + ".\n";
+                        }
+
+                        if (appointmentString == "") {
+                            appointmentString = "You have no appointments for this date.";
+                        }
+
+                        appInfo.setText(appointmentString);
+
+//                if (month == 11 && dayOfMonth == 12){
+//                    appInfo.setText("You have an with Dr.Strange at 2:30pm.");
+//                }
+                    }});
             }
         });
     }
@@ -189,20 +227,18 @@ public class Appointments extends AppCompatActivity {
         if (requestCode == NEW_APPT_RESULT) {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
+                String listenerName = data.getStringExtra("LISTENER_NAME");
                 Integer listenerID = data.getIntExtra("LISTENER_ID", 0);
                 String time = data.getStringExtra("TIME");
+                String apptDate = dateTextString;
 
-                // Listener text
-//                String name = healivaViewModel.getNameFromId(listenerID);
-//                if (name.equals("")) {
-//                    name = healivaViewModel.getEmailFromId(listenerID);
-//                }
+                // Make new appt
+                Appointment newAppt = new Appointment(new Random().nextInt(), Login.currentUser.getId(), listenerID, null, apptDate, time);
+                healivaViewModel.insert(newAppt);
 
-                // INSTEAD, SAVE TO DB, then based on caledar date, display relevent info
                 appInfo.setText("Pending approval:" +
-                        "\n Appointment with " + listenerID +
-                        " at " + time + ".");
-//                Log.d("|||||||", "onActivityResult: listener" + listenerID + "time" + time);
+                        "\n Appointment with " + listenerName +
+                        " at " + time+ ".\n");
             }
         }
     }
