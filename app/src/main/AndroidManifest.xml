@@ -36,8 +36,12 @@
         <activity android:name="edu.calvin.cs262.healiva.Messaging.Messaging" />
         <activity android:name="edu.calvin.cs262.healiva.Messaging.Message" />
         <activity android:name="edu.calvin.cs262.healiva.Messaging.MessageAdapter" />
-        <activity android:name=".MessageViewHolder" />
-        <activity android:name=".MemberData" />
+        <activity android:name="edu.calvin.cs262.healiva.Messaging.ExampleItem" />
+        <activity android:name="edu.calvin.cs262.healiva.Messaging.RecyclerAdapter" />
+        <activity android:name="edu.calvin.cs262.healiva.Messaging.CounselorList" />
+        <activity android:name="edu.calvin.cs262.healiva.Messaging.GroupList" />
+        <activity android:name="edu.calvin.cs262.healiva.Messaging.MessageViewHolder" />
+        <activity android:name="edu.calvin.cs262.healiva.Messaging.MemberData" />
         <activity
             android:name="edu.calvin.cs262.healiva.Events.Events2Page"
             android:label="@string/title_activity_events2_page"

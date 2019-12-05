@@ -38,7 +38,7 @@ public class MessageGroup extends AppCompatActivity {
         messagingGroupTherapist.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openMessagePerson();
+                openCounselorList();
             }
         });
 
@@ -56,7 +56,7 @@ public class MessageGroup extends AppCompatActivity {
         messagingGroupGucciGang.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openMessagePerson();
+                openGroupList();
             }
         });
 
@@ -99,6 +99,23 @@ public class MessageGroup extends AppCompatActivity {
         Intent messagePerson = new Intent(this, MessagePerson.class);
         this.startActivity(messagePerson);
     }
+
+    /**
+     * openCounselorList opens the CounselorList class
+     */
+    private void openCounselorList() {
+        Intent counselorList = new Intent(this, CounselorList.class);
+        this.startActivity(counselorList);
+    }
+
+    /**
+     * openCounselorList opens the CounselorList class
+     */
+    private void openGroupList() {
+        Intent groupList = new Intent(this, GroupList.class);
+        this.startActivity(groupList);
+    }
+
 
     /**
      * handleClickSettings handles settings click and redirects to settings page

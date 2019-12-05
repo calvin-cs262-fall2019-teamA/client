@@ -6,53 +6,147 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-<<<<<<< HEAD
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27762935-2dcc-4fed-8464-ec8fd9dabbda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/SendMailTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/SendMailTask.java" afterDir="false" />
-=======
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="hello" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="27762935-2dcc-4fed-8464-ec8fd9dabbda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_sambridhiacharya_Desktop_client_app_libs_activation_jar_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_sambridhiacharya_Desktop_client_app_libs_additionnal_jar_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_sambridhiacharya_Desktop_client_app_libs_mail_jar_unspecified_jar.xml" afterDir="false" />
+    <list default="true" id="f473b4af-3add-4ca7-9bbc-587979d2a53b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/CounselorList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/ExampleItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/GroupList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/RecyclerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_adb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fellowship.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_irene.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mood.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sebrina.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Appointments/color/common_border_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Appointments/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_show_counselor_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_show_group_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/cardview_text.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_sambridhiacharya_Desktop_client_app_libs_activation_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_sambridhiacharya_Desktop_client_app_libs_additionnal_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_sambridhiacharya_Desktop_client_app_libs_mail_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_stz4_client_app_libs_activation_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_stz4_client_app_libs_additionnal_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_stz4_client_app_libs_javax_mail_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_stz4_client_app_libs_mail_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_alpha08_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_alpha08_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_rc01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_alpha05_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_alpha05_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_alpha05_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_alpha05_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_concurrent_concurrent_futures_1_0_0_beta01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_alpha08_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_alpha08_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_alpha01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_alpha01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_alpha01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_alpha01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_preference_preference_1_1_0_alpha05_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_preference_preference_1_1_0_alpha05_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_beta01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_beta01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_beta01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_6_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scaledrone_scaledrone_java_0_6_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scaledrone_scaledrone_java_0_7_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scaledrone_scaledrone_java_0_7_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_5_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/CreateNewPassword_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/CreateNewPassword_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ForgotPassword_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ForgotPassword_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPassword_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPassword_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_create_new_password__page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_create_new_password__page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_forgot_password_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_forgot_password_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_reset_password__page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_reset_password__page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessagePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessagePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageRecent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageRecent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/Appointments/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Appointments/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_create_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_create_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_choose_message_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_choose_message_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_choose_message_person.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_choose_message_person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_recent_messages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_recent_messages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/app/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +156,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_26" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -73,215 +167,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/ConfirmationPage.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/MenuPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="1870">
+              <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="32" column="99" lean-forward="true" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_reset_password.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Appointments/Appointments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="144" column="5" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_reset_password__page.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+            </state>
+          </provider>
           <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/CounselorList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Login.java">
+            <state relative-caret-position="215">
+              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/Messaging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
+            <state relative-caret-position="82">
+              <caret line="188" selection-start-line="188" selection-end-line="195" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/ExampleItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/SendMailTask.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/GroupList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ForgotPassword_Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1087">
-              <caret line="76" column="63" lean-forward="true" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2663#3457#0" expanded="true" />
-                <element signature="e#3456#3457#0" expanded="true" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Events2Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPassword_Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/EventsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/CreateAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonGroupChatLink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRoomDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="391">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-=======
-            <state relative-caret-position="-808">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/Appointment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Profile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
-=======
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRepository.java">
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ResetPassword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1419">
-              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+            <state relative-caret-position="1122">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1955">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
               <folding>
-                <element signature="e#2383#2384#0" expanded="true" />
-                <element signature="e#2433#2434#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonDao.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="1207">
+              <caret line="90" column="49" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="49" />
             </state>
           </provider>
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-<<<<<<< HEAD
-        <option value="resourceFile" />
-=======
-        <option value="Class" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>send</find>
-      <find>sendEmail</find>
-      <find>onclick</find>
-      <find>deletePersonAsyncTask</find>
-      <find>matc</find>
-      <find>matched</find>
-      <find>findUser</find>
-      <find>confirmAcc</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -289,80 +271,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Messaging.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/GMail.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/SendMailTask.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/CreateAccount.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ConfirmationPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/database/HealivaRoomDatabase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/database/PersonDao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/ForgotPassword/CreateNewPassword_Page.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/activity_about_us.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/activity_menu_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/activity_profile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/activity_reset_password.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/testing.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/Appointments/activity_test.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/layout/Appointments/layout/layout.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/project01/Settings.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_create_account.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rectangle.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_confirmation_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/ConfirmationPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/CreateAccount.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Settings.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ResetPassword.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Profile.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/MenuPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/Messaging.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageRecent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessagePerson.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageGroup.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Event1Page.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Events2Page.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/EventsPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Appointments/Appointments.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/SendMailTask.java" />
-=======
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_forgot_password_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_reset_password__page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPass_EnterCode.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPassword_Page.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_create_new_password__page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/CreateNewPassword_Page.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonDao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Login.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRepository.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ForgotPassword_Page.java" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/CounselorList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/GroupList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="804" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="282" />
+    <option name="y" value="180" />
+    <option name="width" value="1692" />
+    <option name="height" value="1086" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages Scope="false" ProjectPane="false" />
-      <showMembers AndroidView="false" ProjectPane="false" />
-      <hideEmptyPackages AndroidView="false" ProjectPane="false" />
-      <compactDirectories Scope="true" />
-      <abbreviatePackageNames ProjectPane="true" />
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -403,6 +329,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="calvin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="calvin" type="462c0819:PsiDirectoryNode" />
+              <item name="cs262" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="calvin" type="462c0819:PsiDirectoryNode" />
+              <item name="cs262" type="462c0819:PsiDirectoryNode" />
               <item name="healiva" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,8 +371,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="calvin" type="462c0819:PsiDirectoryNode" />
+              <item name="cs262" type="462c0819:PsiDirectoryNode" />
               <item name="healiva" type="462c0819:PsiDirectoryNode" />
-              <item name="CreateAccount" type="462c0819:PsiDirectoryNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
@@ -422,6 +384,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="calvin" type="462c0819:PsiDirectoryNode" />
+              <item name="cs262" type="462c0819:PsiDirectoryNode" />
               <item name="healiva" type="462c0819:PsiDirectoryNode" />
               <item name="ForgotPassword" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -431,25 +396,12 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="calvin" type="462c0819:PsiDirectoryNode" />
               <item name="cs262" type="462c0819:PsiDirectoryNode" />
               <item name="healiva" type="462c0819:PsiDirectoryNode" />
-              <item name="Appointments" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="drawable-v24" type="462c0819:PsiDirectoryNode" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
+              <item name="Messaging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
@@ -457,17 +409,27 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="calvin" type="462c0819:PsiDirectoryNode" />
               <item name="cs262" type="462c0819:PsiDirectoryNode" />
               <item name="healiva" type="462c0819:PsiDirectoryNode" />
-              <item name="CreateAccount" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
+              <item name="Messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="MessageAdapter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="calvin" type="462c0819:PsiDirectoryNode" />
+              <item name="cs262" type="462c0819:PsiDirectoryNode" />
+              <item name="healiva" type="462c0819:PsiDirectoryNode" />
+              <item name="Messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="Messaging.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
@@ -476,137 +438,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="Appointments" type="462c0819:PsiDirectoryNode" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
             </path>
             <path>
               <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
               <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name="Appointments" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="CreateAccount" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="Appointments" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="CreateAccount" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-xhdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project01" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Project01" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Project01" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="healiva" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="healiva" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project01" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="healiva" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ForgotPassword" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -614,154 +452,12 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="layouts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
-          <expand>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="edu.calvin.cs262.project01" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="layouts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Project01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\siets\Desktop\Git\counselingApp\client" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="layouts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="CreateAccount" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="edu.calvin.cs262.project01" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\layouts\Appointments\layout" />
-      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\layouts\Appointments" />
-      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\layouts" />
-      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\layouts\layout" />
-      <recent name="C:\Users\siets\Desktop\Git\counselingApp\client\app\src\main\res\layouts\Messaging\layout" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -842,33 +538,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="27762935-2dcc-4fed-8464-ec8fd9dabbda" name="Default Changelist" comment="" />
-      <created>1573852218390</created>
+      <changelist id="f473b4af-3add-4ca7-9bbc-587979d2a53b" name="Default Changelist" comment="" />
+      <created>1575496378626</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573852218390</updated>
+      <updated>1575496378626</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="0" />
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26045236" />
-=======
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18955651" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32899246" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -876,27 +559,16 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="0" weight="0.19053255" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.39881656" />
-=======
-      <window_info anchor="bottom" id="Run" order="0" weight="0.31880108" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.34691012" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.3289941" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.5881657" />
+      <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.59053254" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.5550296" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289941" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Build" order="9" weight="0.30887574" />
-=======
-      <window_info anchor="bottom" id="Build" order="9" weight="0.36095506" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-      <window_info anchor="bottom" id="Find" order="10" weight="0.3289941" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.13964497" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.3289941" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -904,365 +576,9 @@
       <window_info anchor="right" id="Flutter Inspector" order="4" />
       <window_info anchor="right" id="Flutter Outline" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Preview" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26045236" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.3289941" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.18816568" />
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.3289941" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.59053254" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289941" />
-      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.13136095" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.3289941" />
-      <window_info anchor="right" id="Preview" order="0" />
-      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Flutter Inspector" order="5" />
-      <window_info anchor="right" id="Flutter Outline" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/testing.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/activity_test.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/layout/activity_test.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/layout.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/temp.xml" />
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/layout/activity_appointments.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Events/layout/activity_event1_page.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_about_us.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Event1Page.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Events2Page.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/EventsPage.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/activity_test.xml" />
-    <entry file="file://$PROJECT_DIR$/app/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_profile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-end-line="154" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/testing.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/activity_test.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/layout/activity_test.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/layout.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/temp.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Appointments/Appointments.java" />
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_create_new_password__page.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" selection-start-line="20" selection-end-line="21" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_about_us.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_forgot_password_page.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_reset_password__page.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_create_account.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="126" column="44" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Settings.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/my_message.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Appointments/layout/activity_appointments.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_settings.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="50" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/their_message.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/settings.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_menu_page.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="67" column="33" selection-end-line="79" selection-end-column="52" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_confirmation_page.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rectangle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRoomDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Events/layout/activity_events2_page.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Events/layout/activity_event1_page.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/round_button.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state>
-          <caret selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_settings.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding>
-            <element signature="e#2244#2266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ResetPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-=======
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/GMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/SendMailTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/Messaging/layout/activity_choose_message_person.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_confirmation_page.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/CreateAccount/layout/activity_create_account.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="128" column="44" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="44" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/AboutUs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1270,310 +586,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/MenuPage.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/RecyclerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="124" column="89" selection-start-line="124" selection-start-column="89" selection-end-line="124" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/Messaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+        <state relative-caret-position="-263">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageRecent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="1411">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessagePerson.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/MenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="1870">
+          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ResetPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="e#1352#1504#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1699#1851#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#2061#2213#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/MessageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPass_EnterCode.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/GroupEventDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/GroupEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/Converters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/CreateAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/ConfirmationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/CreateNewPassword_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_create_new_password__page.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_forgot_password_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/CreateNewPassword_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ForgotPassword_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPassword_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Event1Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/Events2Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Events/EventsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/Appointment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/GMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/CreateAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/ConfirmationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Appointments/Appointments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="144" column="5" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
+        <state relative-caret-position="1207">
+          <caret line="90" column="49" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
       <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/Messaging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="82">
+          <caret line="188" selection-start-line="188" selection-end-line="195" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/CreateAccount/SendMailTask.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/CounselorList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/layout/activity_reset_password.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layouts/ForgotPassword/layout/activity_reset_password__page.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        <state relative-caret-position="215">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ResetPassword_Page.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/ExampleItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-108">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonGroupChatLink.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Messaging/GroupList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRoomDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-808">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="32" column="99" lean-forward="true" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/Database/HealivaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1419">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-          <folding>
-            <element signature="e#2383#2384#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/calvin/cs262/healiva/ForgotPassword/ForgotPassword_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="76" column="63" lean-forward="true" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2663#3457#0" expanded="true" />
-            <element signature="e#3456#3457#0" expanded="true" />
->>>>>>> c1726ecb34e2d1f535e9de815efc2e96c3023693
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
         </state>
       </provider>
     </entry>
