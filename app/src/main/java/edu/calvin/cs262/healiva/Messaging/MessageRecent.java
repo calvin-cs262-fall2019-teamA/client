@@ -9,6 +9,11 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -21,6 +26,9 @@ import edu.calvin.cs262.healiva.Settings;
  */
 public class MessageRecent extends AppCompatActivity {
     private Button messageGroup;
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
 
     /**
      * Opens up the MessageGroup activity page
@@ -39,7 +47,20 @@ public class MessageRecent extends AppCompatActivity {
                 openMessageGroup();
             }
         });
+        ArrayList<ExampleItem> adapterList = new ArrayList<>();
 
+        //Need to update the below with the actual database photo, user name, and recent chat history preview. Also need to update so that the view doesn't expand if the text gets too big
+        adapterList.add(new ExampleItem(R.drawable.ic_android, "YK Park", "How is it going man!"));
+        adapterList.add(new ExampleItem(R.drawable.ic_adb, "Sambridhi", "Your appointment has been made. An email .."));
+        adapterList.add(new ExampleItem(R.drawable.ic_mood, "Nikita", "Are you going tomorrow?"));
+
+        mRecyclerView = findViewById(R.id.recyclerView);
+        mRecyclerView.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(this);
+        mAdapter = new RecyclerAdapter(adapterList);
+
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView.setAdapter(mAdapter);
     }
 
     /**

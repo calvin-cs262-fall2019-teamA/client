@@ -30,7 +30,7 @@ public class MessagePerson extends AppCompatActivity {
         getIntent();
 
         //Message button should listen for click and react by opening messaging_page_counselor
-        messageCounselor = findViewById(R.id.yk);
+        messageCounselor = findViewById(R.id.header);
         messageCounselor.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

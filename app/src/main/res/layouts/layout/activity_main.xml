@@ -102,12 +102,13 @@
             android:id="@+id/textView2"
             android:layout_width="354dp"
             android:layout_height="32dp"
+            android:layout_marginTop="24dp"
             android:text="@string/get_the_help_you_need_anonymously"
+            android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="15sp"
-            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

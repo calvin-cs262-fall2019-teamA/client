@@ -6,4 +6,6 @@
     <string name="send_new_code">Send New Code</string>
     <string name="view_profile">View Profile</string>
     <string name="delete_account">Delete Account</string>
+    <string name="Group">Group</string>
+    <string name="Counselor">Counselor</string>
 </resources>
