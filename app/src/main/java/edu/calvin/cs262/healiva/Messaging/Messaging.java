@@ -31,7 +31,7 @@ import edu.calvin.cs262.healiva.Settings;
 public class Messaging extends AppCompatActivity implements RoomListener {
 
     //The channel ID is used to connect to the scaledrone service
-    private String channelID = "csgk6hEIPp8ZKg0K";
+    private String channelID = "PNzvya4DqNhlEaQ0";
     //the room name creates a room to connect people into a chat space
     private String roomName = "observable-room";
     private EditText editText;
