@@ -42,6 +42,7 @@ public class Appointments extends AppCompatActivity {
     private String dateTextString;
     private final Integer NEW_APPT_RESULT = 1;
     private Map apptsByDate = new HashMap();
+    private Boolean loadingUp = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,46 +57,38 @@ public class Appointments extends AppCompatActivity {
         dateText = findViewById(R.id.dateText);
         appInfo = findViewById(R.id.appointmentInfo);
 
-        //-------------------Set default text for date header-----------------//
-        final long date = calendar.getDate();
-
-        // create instance to use for retrieving values
-        Calendar  calendarInstance = Calendar.getInstance();
-        calendarInstance.setTimeInMillis(date);
-
-        // Extract year, month, and day
-        int year = calendarInstance.get(calendarInstance.YEAR);
-        int month = calendarInstance.get(calendarInstance.MONTH);
-        int dayOfMonth = calendarInstance.get(calendarInstance.DAY_OF_MONTH);
-
-        // Determine month text
-        String monthText = getMonthText(month);
-
-        // Create date string for heading and set text of heading
-        String defaultDateText = monthText + " " + dayOfMonth + ", " + year;
-        dateText.setText(defaultDateText);
-        //---------------(End) Set default text for date header-----------------//
-
+        /**
+         * getAllAppointments observers appt table and updates HashMap used to access appt data
+         * when changes are made and on initial opening of activity
+         */
         healivaViewModel.getAllAppointments().observe(Appointments.this, new Observer<List<Appointment>>() {
             @Override
             public void onChanged(@Nullable final List<Appointment> userAppts) {
-                String appointmentString = "";
-                Log.d("|||||||||||", "onChanged: For Appointment");
+
+                // Reset hashmap to be empty
+                apptsByDate = new HashMap();
+
+                // Go through appts
                 for (Integer i = 0; i < userAppts.size(); i++) {
+                    String appointmentString = "";
 
                     Appointment currentAppt = userAppts.get(i);
                     Integer listenerId = currentAppt.getListenerId();
-                    String name = healivaViewModel.getNameFromId(listenerId);
 
-                    if (name.equals("")) {
-                        name = healivaViewModel.getEmailFromId(listenerId);
-                    }
+                    // Should use db to get name by id, but don't have time to impliment it
+                    String name = currentAppt.getListenerName();
+//                    String name = healivaViewModel.getNameFromId(listenerId);
+//
+//                    if (name.equals("")) {
+//                        name = healivaViewModel.getEmailFromId(listenerId);
+//                    }
 
                     appointmentString += "Pending approval:" +
                             "\n Appointment with " + name +
                             " at " + currentAppt.getTime() + ".\n";
 
                     String currentDate = currentAppt.getDate();
+                    Log.d("||||||", currentDate);
                     String currentDateValue = (String)apptsByDate.get(currentDate);
 
                     String newValue;
@@ -108,8 +101,45 @@ public class Appointments extends AppCompatActivity {
 
                     apptsByDate.put(currentDate, newValue);
                 }
+
+
+
+                //-------------------Set default text for date header-----------------//
+                // Only do this extra work if it is the first opening of the activity
+                if (loadingUp) {
+                    loadingUp = false;
+                    final long date = calendar.getDate();
+
+                    // create instance to use for retrieving values
+                    Calendar calendarInstance = Calendar.getInstance();
+                    calendarInstance.setTimeInMillis(date);
+
+                    // Extract year, month, and day
+                    int year = calendarInstance.get(calendarInstance.YEAR);
+                    int month = calendarInstance.get(calendarInstance.MONTH);
+                    int dayOfMonth = calendarInstance.get(calendarInstance.DAY_OF_MONTH);
+
+                    // Determine month text
+                    String monthText = getMonthText(month);
+
+                    // Create date string for heading and set text of heading
+                    dateTextString = monthText + " " + dayOfMonth + ", " + year;
+                    dateText.setText(dateTextString);
+
+                    // Grab appts from db
+                    String currentDateValue = (String) apptsByDate.get(dateTextString);
+                    if (currentDateValue == null) {
+                        currentDateValue = "You have no appointments for this date.";
+                    }
+
+                    // Display text
+                    appInfo.setText(currentDateValue);
+                }
+                //---------------(End) Set default text for date header-----------------//
             }}
+
         );
+
 
         /**
          * setOnDateChangeListener should select the date and show it under the calendar with
@@ -133,10 +163,6 @@ public class Appointments extends AppCompatActivity {
                 }
 
                 appInfo.setText(currentDateValue);
-
-//                if (month == 11 && dayOfMonth == 12){
-//                    appInfo.setText("You have an with Dr.Strange at 2:30pm.");
-//                }
             }
         });
     }
@@ -250,7 +276,7 @@ public class Appointments extends AppCompatActivity {
                 String apptDate = dateTextString;
 
                 // Make new appt
-                Appointment newAppt = new Appointment(new Random().nextInt(), Login.currentUser.getId(), listenerID, null, apptDate, time);
+                Appointment newAppt = new Appointment(new Random().nextInt(), Login.currentUser.getId(), listenerID, listenerName, "", apptDate, time);
                 healivaViewModel.insert(newAppt);
 
                 appInfo.setText("Pending approval:" +

@@ -2,6 +2,7 @@ package edu.calvin.cs262.healiva.Database;
 
 import android.app.Application;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import java.sql.Date;
 import java.util.List;
@@ -118,7 +119,7 @@ public class HealivaRepository {
 
     ////////////////// GET APPT BY DATE //////////////////
     LiveData<List<Appointment>> getAllAppointments() {
-        return appointmentDao.getAllAppointments();
+        return allAppointments;
     }
 
     ////////////////// INSERT PERSON //////////////////
@@ -208,6 +209,7 @@ public class HealivaRepository {
 
         @Override
         protected Void doInBackground(final Appointment... params) {
+            Log.d("|||||||||||", "doInBackground: Got in appt insert" + params[0].getDate());
             appointmentAsyncTaskDao.insert(params[0]);
             return null;
         }

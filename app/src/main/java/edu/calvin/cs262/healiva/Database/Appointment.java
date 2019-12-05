@@ -25,6 +25,9 @@ public class Appointment {
     @ColumnInfo(name = "listenerId")
     private Integer listenerId;
 
+    @ColumnInfo(name = "listenerName")
+    private String listenerName;
+
     @NonNull
     @ColumnInfo(name = "location")
     private String location;
@@ -38,10 +41,11 @@ public class Appointment {
     private String time;
 
     public Appointment(@NonNull Integer id, @NonNull Integer patientId, @NonNull Integer listenerId,
-                       @NonNull String location, @NonNull String date, @NonNull String time) {
+                       String listenerName, @NonNull String location, @NonNull String date, @NonNull String time) {
         this.id = id;
         this.patientId = patientId;
         this.listenerId = listenerId;
+        this.listenerName = listenerName;
         this.location = location;
         this.date = date;
         this.time = time;
@@ -51,6 +55,7 @@ public class Appointment {
     public Integer getId(){return this.id;}
     public Integer getPatientId(){return this.patientId;}
     public Integer getListenerId(){return this.listenerId;}
+    public String getListenerName() {return this.listenerName; }
     public String getLocation(){return this.location;}
     public String getDate(){return this.date;}
     public String getTime(){return this.time;}
