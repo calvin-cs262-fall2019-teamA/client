@@ -1,6 +1,7 @@
 package edu.calvin.cs262.healiva.Messaging;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
@@ -8,6 +9,7 @@ import android.widget.EditText;
 
 import android.view.View;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -56,31 +58,37 @@ public class Messaging extends AppCompatActivity implements RoomListener {
         messagesView = (ListView) findViewById(R.id.messages_view);
         messagesView.setAdapter(messageAdapter);
 
+        connect();
+    }
+
+    public void connect() {
         MemberData data = new MemberData(getRandomName(), getRandomColor());
 
         scaledrone = new Scaledrone(channelID, data);
+
         scaledrone.connect(new Listener() {
             // Successfully connected to Scaledrone room
             @Override
             public void onOpen() {
-                System.out.println("Scaledrone connection open");
                 scaledrone.subscribe(roomName, edu.calvin.cs262.healiva.Messaging.Messaging.this);
+                Log.d("MESSAGING||||||||", "Scaledrone connection open");
             }
 
             // Connecting to Scaledrone room failed
             @Override
             public void onOpenFailure(Exception ex) {
-                System.err.println(ex);
+                Log.d("MESSAGING||||||||", "Open failed!" + ex);
             }
 
             @Override
             public void onFailure(Exception ex) {
-                System.err.println(ex);
+                Log.d("MESSAGING||||||||", "Failure!" + ex);
+                connect();
             }
 
             @Override
             public void onClosed(String reason) {
-                System.err.println(reason);
+                Log.d("MESSAGING||||||||", "Closed!" + reason);
             }
         });
     }
@@ -93,17 +101,17 @@ public class Messaging extends AppCompatActivity implements RoomListener {
         }
     }
 
-    //@Override
+    @Override
     public void onOpen(Room room) {
-        System.out.println("Conneted to room");
+        Log.d("MESSAGING||||||||", "Connected!");
     }
 
-    //@Override
+    @Override
     public void onOpenFailure(Room room, Exception ex) {
-        System.err.println(ex);
+        Log.d("MESSAGING||||||||", "Open failed!" + ex);
     }
 
-    //@Override
+    @Override
     public void onMessage(Room room, com.scaledrone.lib.Message receivedMessage) {
         // To transform the raw JsonNode into a POJO we can use an ObjectMapper
         final ObjectMapper mapper = new ObjectMapper();

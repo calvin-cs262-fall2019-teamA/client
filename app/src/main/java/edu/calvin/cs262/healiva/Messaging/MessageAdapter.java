@@ -61,14 +61,14 @@ public class MessageAdapter extends BaseAdapter {
             holder.messageBody.setText(message.getText());
         } else {
             convertView = messageInflater.inflate(R.layout.their_message, null);
-            holder.avatar = (View) convertView.findViewById(R.id.avatar);
+//            holder.avatar = (View) convertView.findViewById(R.id.avatar);
             holder.name = (TextView) convertView.findViewById(R.id.name);
             holder.messageBody = (TextView) convertView.findViewById(R.id.message_body);
             convertView.setTag(holder);
 
             holder.name.setText(message.getMemberData().getName());
             holder.messageBody.setText(message.getText());
-            StateListDrawable drawable = (StateListDrawable) holder.avatar.getBackground();
+//            StateListDrawable drawable = (StateListDrawable) holder.avatar.getBackground();
 //            drawable.setColor(Color.parseColor(message.getMemberData().getColor()));
         }
 

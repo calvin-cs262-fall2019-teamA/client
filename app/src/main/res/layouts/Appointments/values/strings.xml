@@ -9,4 +9,5 @@
     <string name="choose_person">Choose Person:</string>
     <string name="Group">Group</string>
     <string name="Counselor">Counselor</string>
+    <string name="view_profile_settings">View Profile Settings</string>
 </resources>

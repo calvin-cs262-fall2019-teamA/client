@@ -54,7 +54,7 @@
         android:onClick="handleClickProfile"
         android:background="@color/colorPrimary"
         android:textColor="#ffffff"
-        android:text="@string/view_profile"
+        android:text="@string/view_profile_settings"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
