@@ -30,13 +30,25 @@ public class HealivaViewModel extends AndroidViewModel {
         return mRepository.getGroupChatsForPerson(personId);
     }
 
+    public LiveData<List<Person>> getAllListeners() {return mRepository.getAllListeners(); }
+
+    public String getNameFromId(Integer id) { return mRepository.getNameFromId(id); }
+
+    public String getEmailFromId(Integer id) { return mRepository.getEmailFromId(id); }
+
     public LiveData<List<Person>> findPerson(String email) { return mRepository.findPerson(email);}
+
+    // Get Appt by date
+    public LiveData<List<Appointment>> getAllAppointments() { return mRepository.getAllAppointments(); }
 
     // validate Login
     public LiveData<List<Person>> findUser(String email, String password) { return mRepository.findUser(email, password); }
 
     // Insert methods
     public void insert(Person person) { mRepository.insert(person); }
+
+    // Insert Appointment
+    public void insert(Appointment appointment) { mRepository.insert(appointment); }
 
     // Delete methods
     public void deletePerson(Person person) {

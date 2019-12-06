@@ -77,22 +77,19 @@ public abstract class HealivaRoomDatabase extends RoomDatabase {
 
             // If we have no persons, then create the initial list of persons
             if (personDao.getAnyPerson().length < 1) {
-                Log.d("DO IN BACKGROOUND DB", "doInBackground: NO PEOPLE YET");
-//                personDao.insert(new Person(
-//                        1234,
-//                        "ini23@students.calvin.edu",
-//                        "password123",
-//                        "",
-//                        false,
-//                        "",
-//                        false,
-//                        null,
-//                        false,
-//                        "",
-//                        false,
-//                        false,
-//                        false)
-//                );
+                Log.d("DO IN BACKGROOUND DB", "doInBackground: NO PEOPLE YET. Adding default.");
+
+                // Add hardcoded for listeners and patients
+                personDao.insert(new Person(1, "nrs32@students.calvin.edu", "12345678", "Nikita", false, "", false, null, false, "", false, false, false));
+                personDao.insert(new Person(2, "stz4@students.calvin.edu", "12345678", "Sebrina", false, "", false, null, false, "", false, false, false));
+                personDao.insert(new Person(3, "sa35@students.calvin.edu", "12345678", "Sam", false, "", false, null, false, "", false, false, false));
+                personDao.insert(new Person(4, "ham8@students.calvin.edu", "12345678", "Hellen", false, "", false, null, false, "", false, false, false));
+                personDao.insert(new Person(5, "yp27@students.calvin.edu", "12345678", "YK", false, "", false, null, false, "", false, false, false));
+                personDao.insert(new Person(6, "ibk2@calvin.edu", "12345678", "Irene", true, "", false, null, false, "", false, true, true));
+                personDao.insert(new Person(7, "oah4@calvin.edu", "12345678", "Olja", true, "", false, null, false, "", false, true, true));
+                personDao.insert(new Person(8, "kal34@calvin.edu", "12345678", "Keith", true, "", false, null, false, "", false, true, true));
+                personDao.insert(new Person(9, "sdm23@calvin.edu", "12345678", "Shayne", true, "", false, null, false, "", false, true, true));
+
             } else {
                 Log.d("DO IN BACKGROOUND DB", "doInBackground: ALREADY HAVE PERSON");
             }

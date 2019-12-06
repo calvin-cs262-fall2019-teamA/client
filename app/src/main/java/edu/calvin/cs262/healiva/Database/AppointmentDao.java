@@ -26,7 +26,7 @@ public interface AppointmentDao {
     // Get appt. by date
     @Query("SELECT * FROM appointment_table, person_table as patient, person_table as listener " +
            "WHERE date=:date " +
-           "AND patient.id=:patientId " +
-           "AND listener.id=:listenerId ")
-    LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId);
+           "AND patient.id=:currentUserId " +
+           "OR listener.id=:currentUserId ")
+    LiveData<List<Appointment>> getAppointmentByDate(final String date, final Integer currentUserId);
 }

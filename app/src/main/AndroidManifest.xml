@@ -12,23 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="edu.calvin.cs262.healiva.CreateAccount.ConfirmationPage"></activity>
+        <activity android:name=".Appointments.NewAppointment"></activity>
+        <activity android:name=".CreateAccount.ConfirmationPage" />
         <activity
-            android:name="edu.calvin.cs262.healiva.ForgotPassword.CreateNewPassword_Page"
+            android:name=".ForgotPassword.CreateNewPassword_Page"
             android:noHistory="true" />
         <activity
-            android:name="edu.calvin.cs262.healiva.ForgotPassword.ResetPassword_Page"
+            android:name=".ForgotPassword.ResetPassword_Page"
             android:noHistory="true" />
         <activity
-            android:name="edu.calvin.cs262.healiva.ForgotPassword.ForgotPassword_Page"
+            android:name=".ForgotPassword.ForgotPassword_Page"
             android:noHistory="true" />
         <activity
-            android:name="edu.calvin.cs262.healiva.ResetPassword"
+            android:name=".ResetPassword"
             android:noHistory="true" />
-        <activity android:name="edu.calvin.cs262.healiva.Settings" />
-        <activity android:name="edu.calvin.cs262.healiva.Profile" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Profile" />
         <activity
-            android:name="edu.calvin.cs262.healiva.CreateAccount.CreateAccount"
+            android:name=".CreateAccount.CreateAccount"
             android:noHistory="true" />
         <activity android:name="edu.calvin.cs262.healiva.Messaging.MessageRecent" />
         <activity android:name="edu.calvin.cs262.healiva.Messaging.MessageGroup" />
@@ -43,24 +44,24 @@
         <activity android:name="edu.calvin.cs262.healiva.Messaging.MessageViewHolder" />
         <activity android:name="edu.calvin.cs262.healiva.Messaging.MemberData" />
         <activity
-            android:name="edu.calvin.cs262.healiva.Events.Events2Page"
+            android:name=".Events.Events2Page"
             android:label="@string/title_activity_events2_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="edu.calvin.cs262.healiva.Events.Event1Page"
+            android:name=".Events.Event1Page"
             android:label="@string/title_activity_event1_page"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="edu.calvin.cs262.healiva.Appointments.Appointments" />
-        <activity android:name="edu.calvin.cs262.healiva.Events.EventsPage" />
-        <activity android:name="edu.calvin.cs262.healiva.MenuPage" />
-        <activity android:name="edu.calvin.cs262.healiva.Login">
+        <activity android:name=".Appointments.Appointments" />
+        <activity android:name=".Events.EventsPage" />
+        <activity android:name=".MenuPage" />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.calvin.cs262.healiva.AboutUs" />
+        <activity android:name=".AboutUs" />
     </application>
 
 </manifest>
