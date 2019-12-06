@@ -2,6 +2,7 @@ package edu.calvin.cs262.healiva.Database;
 
 import android.app.Application;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import java.sql.Date;
 import java.util.List;
@@ -31,7 +32,7 @@ public class HealivaRepository {
     // Appointment declarations
     private AppointmentDao appointmentDao;
     LiveData<List<Appointment>> allAppointments;
-    LiveData<List<Appointment>> allAppointmentsByDate;
+    List<Appointment> allAppointmentsByDate;
 
     // GroupEvent declarations
     private GroupEventDao groupEventDao;
@@ -77,6 +78,10 @@ public class HealivaRepository {
         return allCounselors;
     }
 
+    String getNameFromId(Integer id) { return personDao.getNameFromId(id); }
+
+    String getEmailFromId(Integer id) { return personDao.getEmailFromId(id); }
+
     LiveData<List<Person>> getAllListeners() {
         return allListeners;
     }
@@ -103,17 +108,18 @@ public class HealivaRepository {
         return allPersonGroupChatLinks;
     }
 
-    LiveData<List<Appointment>> getAppointmentByDate(final Date date, final Integer patientId, final Integer listenerId) {
-        allAppointmentsByDate = appointmentDao.getAppointmentByDate(date, patientId, listenerId);
-        return allAppointmentsByDate;
-    }
-
     LiveData<List<Appointment>> getAppointmnets() {
         return allAppointments;
     }
 
     LiveData<List<GroupEvent>> getAllGroupEvents() {
         return allGroupEvents;
+    }
+
+
+    ////////////////// GET APPT BY DATE //////////////////
+    LiveData<List<Appointment>> getAllAppointments() {
+        return allAppointments;
     }
 
     ////////////////// INSERT PERSON //////////////////
@@ -203,6 +209,7 @@ public class HealivaRepository {
 
         @Override
         protected Void doInBackground(final Appointment... params) {
+            Log.d("|||||||||||", "doInBackground: Got in appt insert" + params[0].getDate());
             appointmentAsyncTaskDao.insert(params[0]);
             return null;
         }
