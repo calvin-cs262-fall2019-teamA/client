@@ -106,7 +106,7 @@ public class CreateAccount extends AppCompatActivity {
      * @param mainEmailBody Main message of body. Verification code is hard coded
      */
     public static void sendConfirmationEmail(Activity activity, String emailAddress, String verificationCode, String mainEmailBody){
-        new SendMailTask(activity).execute("tproj811@gmail.com", "popethiopia123", emailAddress, "Test email",
+        new SendMailTask(activity).execute("calvinhealiva@gmail.com", "teamconfidant@2019", emailAddress, "Test email",
                 mainEmailBody +
                 "<b><font color=\"#97252B\">" + verificationCode + "</font></b>");
     }

@@ -1,41 +1,31 @@
-package edu.calvin.cs262.healiva.Events;
+package edu.calvin.cs262.healiva;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-import edu.calvin.cs262.healiva.HelpMe;
-import edu.calvin.cs262.healiva.Login;
-import edu.calvin.cs262.healiva.MenuPage;
-import edu.calvin.cs262.healiva.Profile;
-import edu.calvin.cs262.healiva.R;
-import edu.calvin.cs262.healiva.Settings;
-
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
- * Events1 page takes user to details of event1
+ * HelpMe displays the frequently asked questions about app. It will help user with navigation of the app.
+ *
  */
-public class Event1Page extends AppCompatActivity {
+public class HelpMe extends AppCompatActivity {
+
     /**
-     * Initializes event1 pages
+     * onCreate should create the HelpME page and display the FAQ's in the activity
      * @param savedInstanceState
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event1_page);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
+        setContentView(R.layout.activity_helpme);
     }
 
     /**
      * onCreateOptionsMenu should create the dropdown menu button in the top right corner of each page.
-     * Options should include Profile, Settings, and Logout buttons
+     * Options should include Profile, Settings, Help and Logout buttons
      * @param menu
      * @return true -- required return
      */
@@ -62,7 +52,6 @@ public class Event1Page extends AppCompatActivity {
         Intent profile = new Intent(this, Profile.class);
         this.startActivity(profile);
     }
-
     /**
      * handleClickSettings handles settings click and redirects to settings page
      * @param item
@@ -73,6 +62,14 @@ public class Event1Page extends AppCompatActivity {
     }
 
     /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        //do nothing
+    }
+
+    /**
      * handleClickMainMenu should bring user back to main Menu page
      * @param item
      */
@@ -80,13 +77,5 @@ public class Event1Page extends AppCompatActivity {
         Intent mainMenu = new Intent(this, MenuPage.class);
         this.startActivity(mainMenu);
     }
-
-    /**
-     * handleClickHelp handles help click and redirects to FAQ page
-     * @param item
-     */
-    public void handleClickHelp(MenuItem item) {
-        Intent help = new Intent(this, HelpMe.class);
-        this.startActivity(help);
-    }
 }
+

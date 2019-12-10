@@ -75,6 +75,15 @@ public class Profile extends AppCompatActivity {
     }
 
     /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
+
+    /**
      * handleClickMainMenu should bring user back to main Menu page
      * @param item
      */

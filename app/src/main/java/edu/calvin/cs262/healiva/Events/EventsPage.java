@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import edu.calvin.cs262.healiva.HelpMe;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -84,6 +86,14 @@ public class EventsPage extends AppCompatActivity {
         this.startActivity(login);
     }
 
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
     /**
      * handleClickProfile handles profile click and redirects to profile settings page
      * @param item

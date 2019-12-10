@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProviders;
 import edu.calvin.cs262.healiva.Database.HealivaViewModel;
 import edu.calvin.cs262.healiva.Database.Person;
 import edu.calvin.cs262.healiva.Database.PersonDao;
+import edu.calvin.cs262.healiva.HelpMe;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -108,6 +109,14 @@ public class NewAppointment extends AppCompatActivity {
         this.startActivity(profile);
     }
 
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
     /**
      * handleClickSettings handles settings click and redirects to settings page
      * @param item

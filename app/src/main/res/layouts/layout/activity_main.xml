@@ -121,7 +121,26 @@
             app:layout_constraintBottom_toTopOf="@+id/createAccount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login" />
+            app:layout_constraintTop_toBottomOf="@+id/login" /><![CDATA[
+
+        "
+            android:focusable="true" />
+
+        ]]>
+
+        <TextView
+            android:id="@+id/viewHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="loginHelp"
+            android:text="@string/help_login"
+            android:textColor="#0070C0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/viewAbout"
@@ -129,11 +148,15 @@
             android:layout_height="wrap_content"
             android:text="@string/learn_about_us"
             android:textColor="#0070C0"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             android:clickable="true"
             android:onClick="handleAboutUs"
-            android:focusable="true" />
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@+id/viewHelp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.017"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createAccount"
+            app:layout_constraintVertical_bias="0.529" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

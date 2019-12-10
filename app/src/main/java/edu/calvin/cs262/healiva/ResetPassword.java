@@ -81,4 +81,13 @@ public class ResetPassword extends AppCompatActivity {
         Intent settings = new Intent(this, Settings.class);
         this.startActivity(settings);
     }
+
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
 }

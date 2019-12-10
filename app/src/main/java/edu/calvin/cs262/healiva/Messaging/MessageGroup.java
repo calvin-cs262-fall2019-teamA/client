@@ -9,6 +9,8 @@ import android.widget.Button;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import edu.calvin.cs262.healiva.HelpMe;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -117,6 +119,7 @@ public class MessageGroup extends AppCompatActivity {
     }
 
 
+
     /**
      * handleClickSettings handles settings click and redirects to settings page
      * @param item
@@ -127,6 +130,14 @@ public class MessageGroup extends AppCompatActivity {
     }
 
     /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
+    /**
      * handleClickMainMenu should bring user back to main Menu page
      * @param item
      */
@@ -134,4 +145,5 @@ public class MessageGroup extends AppCompatActivity {
         Intent mainMenu = new Intent(this, MenuPage.class);
         this.startActivity(mainMenu);
     }
+
 }

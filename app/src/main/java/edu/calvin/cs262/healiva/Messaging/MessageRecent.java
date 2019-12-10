@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import edu.calvin.cs262.healiva.HelpMe;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -117,6 +118,15 @@ public class MessageRecent extends AppCompatActivity {
     public void handleClickSettings(MenuItem item) {
         Intent settings = new Intent(this, Settings.class);
         this.startActivity(settings);
+    }
+
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
     }
 
 }

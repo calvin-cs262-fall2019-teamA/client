@@ -87,6 +87,14 @@ public class Settings extends AppCompatActivity {
         Intent mainMenu = new Intent(this, MenuPage.class);
         this.startActivity(mainMenu);
     }
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
 
     /**
      * handleResetPassword should bring user to change Password page
