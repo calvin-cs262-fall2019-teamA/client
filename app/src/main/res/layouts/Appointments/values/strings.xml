@@ -10,4 +10,12 @@
     <string name="Group">Group</string>
     <string name="Counselor">Counselor</string>
     <string name="view_profile_settings">View Profile Settings</string>
+    <string name="help_login">Help?</string>
+    <string name="faq_text"><b>How can I create an account?</b>\nStep 1: You will need a valid Calvin email address. \nStep 2: Tap on Create Account. \nStep 3: Type in your Calvin email with your desired password (min 8 characters). \nStep 4: Read the terms and conditions
+        and tap on the checkbox to accept the terms and conditions. \nStep 5: Tap on Next. \nStep 6: Please check your email for the verification code and enter the code in the given textbox in the app.
+        \nOptional: If you didn’t receive the verification code, tap on send new code and repeat Step 6. \nStep 7: Tap on finish. <b>\n\nHow can I login to my account?</b> \nStep1: Type your email and password you used while creating an account. \nStep 2: Tap on login.
+        <b>\n\nHow can I message my counselors or peers?</b> \nStep 1: Login to your account. \nStep 2: Tap on “MESSAGING”. \nStep 3: If the person you want to chat with is already in the chat history, go ahead and tap on the message. Otherwise, tap on the “+” button to start a new chat.
+        \nStep 4: Choose the type of chat you want.(Counselors or Peers or Group) \nStep 5: Tap on the person you would like to chat. <b>\n\nHow can I set up an appointment with a counselor or a peer?</b> \nStep 1: Login to your account. \nStep 2: Tap on “APPOINTMENTS”. \nStep 3: Tap on the desired date that you would like to meet with your counselor.
+        \nStep 4: Tap on the “+” button. \nStep 5: Choose the listener you want to meet with. \nStep 6: Enter the time you would like to request. \n\n\n\n</string>
+    <string name="faq">FAQ</string>
 </resources>

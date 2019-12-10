@@ -62,6 +62,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AboutUs" />
+        <activity android:name=".HelpMe" />
+        <activity android:name=".HelpLogin" />
     </application>
 
 </manifest>

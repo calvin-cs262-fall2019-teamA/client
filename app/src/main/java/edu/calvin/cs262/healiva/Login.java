@@ -143,6 +143,7 @@ public class Login extends AppCompatActivity {
         this.startActivity(login);
     }
 
+
     /**
      * handleClickProfile handles profile click and redirects to profile settings page
      * @param item
@@ -158,5 +159,15 @@ public class Login extends AppCompatActivity {
     public void openForgotPasswordPage() {
         Intent forgotPassword = new Intent(this, ForgotPassword_Page.class);
         this.startActivity(forgotPassword);
+    }
+
+
+    /**
+     * loginHelp handles help click and redirects to FAQ page
+     * @param view
+     */
+    public void loginHelp(View view) {
+        Intent loginHelp = new Intent(this, HelpLogin.class);
+        this.startActivity(loginHelp);
     }
 }

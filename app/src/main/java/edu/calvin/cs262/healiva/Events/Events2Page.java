@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import edu.calvin.cs262.healiva.HelpMe;
 import edu.calvin.cs262.healiva.Login;
 import edu.calvin.cs262.healiva.MenuPage;
 import edu.calvin.cs262.healiva.Profile;
@@ -70,6 +72,14 @@ public class Events2Page extends AppCompatActivity {
         this.startActivity(settings);
     }
 
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
     /**
      * handleClickMainMenu should bring user back to main Menu page
      * @param item

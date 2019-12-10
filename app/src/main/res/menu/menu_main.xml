@@ -26,6 +26,15 @@
         android:background="@color/colorPrimary" />
 
     <item
+        android:id="@+id/help"
+        android:orderInCategory="30"
+        android:title="Help"
+        android:onClick="handleClickHelp"
+        app:showAsAction="never"
+        android:background="@color/colorPrimary"
+        />
+
+    <item
         android:id="@+id/logout"
         android:orderInCategory="100"
         android:title="Logout"

@@ -128,4 +128,13 @@ public class MenuPage extends AppCompatActivity {
     public void handleClickMainMenu(MenuItem item) {
         // Do nothing
     }
+
+    /**
+     * handleClickHelp handles help click and redirects to FAQ page
+     * @param item
+     */
+    public void handleClickHelp(MenuItem item) {
+        Intent help = new Intent(this, HelpMe.class);
+        this.startActivity(help);
+    }
 }
