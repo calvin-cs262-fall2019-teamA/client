@@ -9,11 +9,11 @@
 
     <Button
         android:id="@+id/buttonTherapist"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/circle"
-        android:text="@string/Counselor"
+        android:text="@string/Counselors"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/buttonPeer"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,11 +24,11 @@
 
     <Button
         android:id="@+id/buttonPeer"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_marginBottom="12dp"
         android:background="@drawable/circle"
-        android:text="@string/peer"
+        android:text="@string/peers"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/buttonGucciGang"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,11 +37,11 @@
 
     <Button
         android:id="@+id/buttonGucciGang"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_marginBottom="120dp"
         android:background="@drawable/circle"
-        android:text="@string/Group"
+        android:text="@string/Groups"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
