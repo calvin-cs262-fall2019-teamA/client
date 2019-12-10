@@ -121,12 +121,7 @@
             app:layout_constraintBottom_toTopOf="@+id/createAccount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login" /><![CDATA[
-
-        "
-            android:focusable="true" />
-
-        ]]>
+            app:layout_constraintTop_toBottomOf="@+id/login" />
 
         <TextView
             android:id="@+id/viewHelp"
