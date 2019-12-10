@@ -16,7 +16,7 @@ import edu.calvin.cs262.healiva.R;
 import edu.calvin.cs262.healiva.Settings;
 
 /**
- * MessagePerson.java opens up the activity page in which the user can choose which user/group they'd like to talk to
+ * CounselorList.java opens up the activity page in which the user can choose which counselor they'd like to talk to
  * this page goes after the MessageGroup.java page
  */
 public class CounselorList extends AppCompatActivity {

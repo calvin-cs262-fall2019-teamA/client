@@ -58,6 +58,11 @@ public class MenuPage extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        // do nothing.
+    }
+
     /**
      * onCreateOptionsMenu should create the dropdown menu button in the top right corner of each page.
      * Options should include Profile, Settings, and Logout buttons

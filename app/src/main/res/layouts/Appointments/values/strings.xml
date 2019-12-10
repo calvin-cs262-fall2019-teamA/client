@@ -18,4 +18,7 @@
         \nStep 4: Choose the type of chat you want.(Counselors or Peers or Group) \nStep 5: Tap on the person you would like to chat. <b>\n\nHow can I set up an appointment with a counselor or a peer?</b> \nStep 1: Login to your account. \nStep 2: Tap on “APPOINTMENTS”. \nStep 3: Tap on the desired date that you would like to meet with your counselor.
         \nStep 4: Tap on the “+” button. \nStep 5: Choose the listener you want to meet with. \nStep 6: Enter the time you would like to request. \n\n\n\n</string>
     <string name="faq">FAQ</string>
+    <string name="Counselors">Counselors</string>
+    <string name="peers">Peers</string>
+    <string name="Groups">Groups</string>
 </resources>
