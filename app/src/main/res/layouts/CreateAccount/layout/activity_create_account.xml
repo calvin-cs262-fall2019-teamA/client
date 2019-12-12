@@ -114,13 +114,28 @@
                 android:layout_width="359dp"
                 android:layout_height="216dp"
                 android:layout_marginTop="8dp"
-                android:textColor="#ffffff"
+                android:textColor="@color/grey"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.163"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ReviewTCond">
 
+                <TextView
+                    android:id="@+id/TextViewTerms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Coming Soon!"
+                    android:text="This is just a temporary terms and conditions. It
+will be updated in the future to include an actual terms and conditions. Some future
+examples would inform the user that they wouldn't be anonymous to the counsers, only
+to other users. We would also probably need to have an agreement to have users be wary
+that good ethical conduct is expected out of them and otherwise they will get banned. We
+could also state that as of now, only people at Calvin are allowed and those found to be
+not students or faculty from Calvin, will get banned from the app, along with the email that
+they obtain from the Calvin student/staff."
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
             </ScrollView>
 
             <CheckBox
